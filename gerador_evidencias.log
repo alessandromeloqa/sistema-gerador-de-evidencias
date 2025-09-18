@@ -1,0 +1,456 @@
+2025-09-18 09:43:53,882 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Test/12-09-2025_4.1.267/1002316 - [INC0367451] - Pix - Agendamentos iguais estão sendo permitidos no Conta Online
+2025-09-18 09:43:53,908 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 09:43:53,909 - INFO - Pasta processada: Pix Copia e Cola - 9 imagens
+2025-09-18 09:43:53,910 - INFO - Pasta processada: Pix por Chaves - 8 imagens
+2025-09-18 09:43:53,910 - INFO - Pasta processada: Pix por Dados Bancarios - 10 imagens
+2025-09-18 09:43:53,943 - INFO - Imagem inserida: 01.jpg
+2025-09-18 09:43:53,947 - INFO - Imagem inserida: 02.jpg
+2025-09-18 09:43:53,950 - INFO - Imagem inserida: 03.jpg
+2025-09-18 09:43:53,955 - INFO - Imagem inserida: 04.jpg
+2025-09-18 09:43:53,960 - INFO - Imagem inserida: 05.jpg
+2025-09-18 09:43:53,963 - INFO - Imagem inserida: 06.jpg
+2025-09-18 09:43:53,969 - INFO - Imagem inserida: 07.jpg
+2025-09-18 09:43:53,973 - INFO - Imagem inserida: 08.jpg
+2025-09-18 09:43:53,977 - INFO - Imagem inserida: 09.jpg
+2025-09-18 09:43:53,983 - INFO - Imagem inserida: 01.jpg
+2025-09-18 09:43:53,989 - INFO - Imagem inserida: 02.jpg
+2025-09-18 09:43:53,994 - INFO - Imagem inserida: 03.jpg
+2025-09-18 09:43:54,000 - INFO - Imagem inserida: 04.jpg
+2025-09-18 09:43:54,010 - INFO - Imagem inserida: 05.jpg
+2025-09-18 09:43:54,016 - INFO - Imagem inserida: 06.jpg
+2025-09-18 09:43:54,022 - INFO - Imagem inserida: 07.jpg
+2025-09-18 09:43:54,030 - INFO - Imagem inserida: 08.jpg
+2025-09-18 09:43:54,038 - INFO - Imagem inserida: 01.jpg
+2025-09-18 09:43:54,046 - INFO - Imagem inserida: 02.jpg
+2025-09-18 09:43:54,054 - INFO - Imagem inserida: 03.jpg
+2025-09-18 09:43:54,062 - INFO - Imagem inserida: 04.jpg
+2025-09-18 09:43:54,070 - INFO - Imagem inserida: 05.jpg
+2025-09-18 09:43:54,077 - INFO - Imagem inserida: 06.jpg
+2025-09-18 09:43:54,087 - INFO - Imagem inserida: 07.jpg
+2025-09-18 09:43:54,098 - INFO - Imagem inserida: 09.jpg
+2025-09-18 09:43:54,110 - INFO - Imagem inserida: 10.jpg
+2025-09-18 09:43:54,124 - INFO - Imagem inserida: 11.jpg
+2025-09-18 09:43:54,319 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc.docx
+2025-09-18 09:44:01,977 - INFO - PDF gerado: C:/Users/alessandro.melo/Downloads/teste de doc.pdf
+2025-09-18 09:50:39,961 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 09:50:39,981 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 09:50:39,982 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada - 1 imagens
+2025-09-18 09:50:40,011 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 09:50:40,047 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc2.docx
+2025-09-18 09:52:26,196 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 09:52:26,218 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 09:52:26,219 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada - 1 imagens
+2025-09-18 09:52:26,223 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 09:52:26,271 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc3.docx
+2025-09-18 09:57:56,008 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 09:57:56,026 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 09:57:56,027 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 09:57:56,027 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 09:57:56,028 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 09:57:56,028 - ERROR - Erro no processamento: 'Paragraph' object has no attribute 'insert_paragraph_after'
+2025-09-18 10:00:33,763 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:00:33,783 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 10:00:33,784 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:00:33,785 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:00:33,786 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:00:33,814 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:00:33,852 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc4.docx
+2025-09-18 10:03:13,933 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:03:13,954 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 10:03:13,955 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:03:13,956 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:03:13,956 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:03:13,990 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:03:14,028 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc5.docx
+2025-09-18 10:06:37,382 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:06:37,402 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO - BRANCO.docx
+2025-09-18 10:06:37,403 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:06:37,404 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:06:37,405 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:06:37,438 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:06:37,472 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc6.docx
+2025-09-18 10:08:01,497 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/08-09-2025_2.1.414
+2025-09-18 10:08:01,563 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO - BRANCO.docx
+2025-09-18 10:08:01,572 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:08:01,577 - INFO - Pasta processada: 1176549 - [PRJ0025406]4. [Conta Online] Adicionar o icone Check e Calendar o clock Nos comprovantes PDF Agendamento e Pagamento (nível 1) - 4 imagens
+2025-09-18 10:08:01,586 - INFO - Pasta processada: 1180406 - PRJ0025328 Bolepix - Aprensentar Bolepix no menu Cobrança Bancária (nível 1) - 5 imagens
+2025-09-18 10:08:01,592 - INFO - Pasta processada: 1180523 - PRJ0025328 Bolepix - Adesão ao Bolepix com chave aleatória existente (nível 1) - 6 imagens
+2025-09-18 10:08:01,598 - INFO - Pasta processada: 1180538 - PRJ0025328 Bolepix - Adesão ao Bolepix com nova chave (nível 1) - 3 imagens
+2025-09-18 10:08:01,613 - INFO - Pasta processada: 1180656 - PRJ0025328 Bolepix - Incluir o indicador do bolepix (nível 1) - 2 imagens
+2025-09-18 10:08:01,652 - INFO - Pasta processada: 1189675 - [PRJ0025512] [Conta Online] Alterar nomenclaturas dentro do menu 'reportar fraude' do Pix no Conta Online (nível 1) - 6 imagens
+2025-09-18 10:08:01,714 - INFO - Pasta processada: 1189681 - [PRJ0025512] [Conta Online] Alterar tela de listagem de transações para contestação de Pix no Conta Online (nível 1) - 9 imagens
+2025-09-18 10:08:01,738 - INFO - Pasta processada: 1189750 - [PRJ0025512] [Conta Online] Alterar tela inicial do menu 'contestar Pix' do Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:08:01,739 - INFO - Pasta processada: 1189758 - [PRJ0025512] [Conta Online] Criar pop-up de onboarding na tela inicial do menu 'contestar Pix do Pix no Conta Online (nível 1) - 2 imagens
+2025-09-18 10:08:01,740 - INFO - Pasta processada: 1189762 - [PRJ0025512] [Conta Online] Alterar tela de motivos para contestação de Pix no Conta Online (nível 1) - 0 imagens
+2025-09-18 10:08:01,741 - INFO - Pasta processada: Pix Automatico (nível 2) - 9 imagens
+2025-09-18 10:08:01,742 - INFO - Pasta processada: Pix Normal (nível 2) - 11 imagens
+2025-09-18 10:08:01,743 - INFO - Pasta processada: 1189792 - [PRJ0025512] [Conta Online] Alterar limite mínimo e máximo de caracteres do campo 'descrição' ao contestar um Pix no Conta Online (nível 1) - 3 imagens
+2025-09-18 10:08:01,744 - INFO - Pasta processada: 1189816 - [PRJ0025512] [Conta Online] Alterar tela 'próximos passos' na contestação de Pix no Conta Online (nível 1) - 1 imagens
+2025-09-18 10:08:01,745 - INFO - Pasta processada: 1189828 [PRJ0025512] [Conta Online] Alterar mensagem de sucesso e erro ao contestar um Pix NORMAL no Conta Online (nível 1) - 6 imagens
+2025-09-18 10:08:01,746 - INFO - Pasta processada: 1189835 [PRJ0025512] [Conta Online] Criar mensagem de sucesso e erro ao contestar um Pix AUTOMÁTICO no Conta Online (nível 1) - 7 imagens
+2025-09-18 10:08:01,747 - INFO - Pasta processada: 1189866 [PRJ0025512] [Conta Online] Alterar tela de detalhes de uma contestação de Pix no Conta Online (nível 1) - 1 imagens
+2025-09-18 10:08:01,748 - INFO - Pasta processada: 1189887 - [PRJ0025512] [Conta Online] Alterar tela de detalhes de uma contestação com status 'ACEITA' de Pix no Conta Online (nível 1) - 3 imagens
+2025-09-18 10:08:01,749 - INFO - Pasta processada: 1189892 - [PRJ0025512] [Conta Online] Alterar nomenclatura dos status de contestação Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:08:01,750 - INFO - Pasta processada: 1191872 - [PRJ0025328] [Conta Online] Nova mensagem de alerta ao cancelar chave Pix aleatória (nível 1) - 4 imagens
+2025-09-18 10:08:01,752 - INFO - Pasta processada: 1193673 - [PRJ0025512] [Conta Online] Criar tela de detalhes de uma transação do tipo 'Pix Automático' para contestação no Conta Online (nível 1) - 2 imagens
+2025-09-18 10:08:01,753 - INFO - Pasta processada: 1194683 - [PRJ0025512] [Conta Online] Criar botão de atalho para menu 'Contestar Pix' no menu 'Serviço de Atendimento Pix' (nível 1) - 3 imagens
+2025-09-18 10:08:01,753 - INFO - Pasta processada: 1195329 - PRJ0025328 Bolepix - Ajustes solicitados no protótipo e que aparecem no front da Conta Online (nível 1) - 1 imagens
+2025-09-18 10:08:01,754 - INFO - Pasta processada: 1197627 INC0415273  Análise Extrato OFX Corrompido (nível 1) - 4 imagens
+2025-09-18 10:08:01,755 - INFO - Pasta processada: 1200357 - [PRJ0025328] BOLEPIX [Crédito] - Inclusão mensagem cancelamento QR Code Descto de Título - Conta Online (nível 1) - 10 imagens
+2025-09-18 10:08:01,756 - INFO - Pasta processada: 1203376 - Efetuar Ajuste em Front IB para empréstimo Aimaro (nível 1) - 6 imagens
+2025-09-18 10:08:01,757 - INFO - Pasta processada: 1213647 - [PRJ0025512] [Conta Online] Ao criar uma contestação de Pix enviar o código do motivo no Conta Online (nível 1) - 5 imagens
+2025-09-18 10:08:01,759 - INFO - Pasta processada: 1213967 [PRJ0025328] - Bolepix - Acrescentar campo de Bolepix, na visualização dos detalhes do boleto boleto (nível 1) - 2 imagens
+2025-09-18 10:08:01,759 - INFO - Pasta processada: 1214415 - PRJ0025328 Bolepix - Aprensentar BolePix no menu Cobrança Bancária (nível 1) - 8 imagens
+2025-09-18 10:08:01,761 - INFO - Pasta processada: 1222992 - [PRJ0025512] [Conta Online] Incluir filtro SITUAÇÃO na tela de listagem de contestações de Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:08:01,761 - INFO - Pasta processada: 1226112 Validação ícones do comprovante - Conta Online (nível 1) - 4 imagens
+2025-09-18 10:08:01,771 - INFO - Imagem inserida: 01-agendamento.jpg
+2025-09-18 10:08:01,780 - INFO - Imagem inserida: 02-agendamento.jpg
+2025-09-18 10:08:01,787 - INFO - Imagem inserida: 03-pix-imediato.jpg
+2025-09-18 10:08:01,794 - INFO - Imagem inserida: 04-pix-imediato.jpg
+2025-09-18 10:08:01,803 - INFO - Imagem inserida: 01-botao lembre-me mais tarde.jpg
+2025-09-18 10:08:01,812 - INFO - Imagem inserida: 02-botao lembre-me mais tarde.jpg
+2025-09-18 10:08:01,819 - INFO - Imagem inserida: 03-botao nao mostrar novamente.jpg
+2025-09-18 10:08:01,829 - INFO - Imagem inserida: 04-operador sem permissão.jpg
+2025-09-18 10:08:01,837 - INFO - Imagem inserida: 05-operador sem permissão.jpg
+2025-09-18 10:08:01,847 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:01,855 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:01,868 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:01,877 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:01,888 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:01,899 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:01,915 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:01,928 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:01,941 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:01,957 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:01,971 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:01,988 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:02,002 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:02,022 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:02,056 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:02,067 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:02,084 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:02,106 - INFO - Imagem inserida: 01-listagem.jpg
+2025-09-18 10:08:02,124 - INFO - Imagem inserida: 02-listagem.jpg
+2025-09-18 10:08:02,142 - INFO - Imagem inserida: 03-filtro avancado.jpg
+2025-09-18 10:08:02,159 - INFO - Imagem inserida: 04-filtro avancado.jpg
+2025-09-18 10:08:02,180 - INFO - Imagem inserida: 05-filtro avancado.jpg
+2025-09-18 10:08:02,217 - INFO - Imagem inserida: 06-filtro avancado.jpg
+2025-09-18 10:08:02,253 - INFO - Imagem inserida: 07-filtro avancado.jpg
+2025-09-18 10:08:02,285 - INFO - Imagem inserida: 08-filtro avancado.jpg
+2025-09-18 10:08:02,346 - INFO - Imagem inserida: 09-filtro avancado.jpg
+2025-09-18 10:08:02,420 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:02,439 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:02,501 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:02,578 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:02,681 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:02,764 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:02,803 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:02,826 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:02,852 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:02,914 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:03,003 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:03,075 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:03,152 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:08:03,245 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:08:03,276 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:08:03,301 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:03,325 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:03,376 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:03,441 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:03,548 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:03,625 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:03,714 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:08:03,737 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:08:03,844 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:08:04,118 - INFO - Imagem inserida: 10.jpg
+2025-09-18 10:08:04,187 - INFO - Imagem inserida: 11.jpg
+2025-09-18 10:08:04,241 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:04,306 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:04,332 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:04,368 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3949.jpg
+2025-09-18 10:08:04,420 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:04,459 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:04,499 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:04,530 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:04,556 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:04,585 - INFO - Imagem inserida: 06-erro.jpg
+2025-09-18 10:08:04,645 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:04,672 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:04,698 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:04,725 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:04,755 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:04,785 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:04,813 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:08:04,842 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3954.jpg
+2025-09-18 10:08:04,878 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:04,914 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:04,946 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:04,982 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,020 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,056 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:05,089 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:05,127 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,161 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,188 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:05,230 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:05,262 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,289 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,331 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,368 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,404 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:05,440 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3822.jpg
+2025-09-18 10:08:05,473 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,503 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,533 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:05,566 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:05,602 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:05,641 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:05,678 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:05,713 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:05,751 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:05,789 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:05,821 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:08:05,859 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:08:05,897 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:08:05,931 - INFO - Imagem inserida: 10.jpg
+2025-09-18 10:08:05,979 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:06,020 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:06,057 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:06,093 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:06,136 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:06,180 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:08:06,226 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:06,264 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:06,311 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:06,358 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:06,404 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:08:06,452 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:06,501 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:06,546 - INFO - Imagem inserida: 01-introducao.jpg
+2025-09-18 10:08:06,595 - INFO - Imagem inserida: 02-introducao.jpg
+2025-09-18 10:08:06,638 - INFO - Imagem inserida: 03-introducao.jpg
+2025-09-18 10:08:06,695 - INFO - Imagem inserida: 04-adesao.jpg
+2025-09-18 10:08:06,748 - INFO - Imagem inserida: 05-adesao.jpg
+2025-09-18 10:08:06,803 - INFO - Imagem inserida: 06-Enviar boleto pelos correios.jpg
+2025-09-18 10:08:06,854 - INFO - Imagem inserida: 07-Enviar boleto pelos correios.jpg
+2025-09-18 10:08:06,908 - INFO - Imagem inserida: 08-Enviar boleto pelos correios.jpg
+2025-09-18 10:08:06,959 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:06,999 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:07,037 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:07,079 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:07,138 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:08:07,183 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:08:07,230 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:08:07,308 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:08:08,690 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc7.docx
+2025-09-18 10:14:10,616 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:14:10,636 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 10:14:10,637 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:14:10,637 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:14:10,638 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:14:10,657 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:14:10,691 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/teste de doc8.docx
+2025-09-18 10:25:02,541 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:25:02,572 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 10:25:02,573 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:25:02,574 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:25:02,575 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:25:02,604 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:25:02,639 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
+2025-09-18 10:29:38,181 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:29:38,206 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO.docx
+2025-09-18 10:29:38,206 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:29:38,210 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:29:38,210 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:29:38,239 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:29:38,288 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
+2025-09-18 10:33:12,446 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:33:12,463 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO - Copia.docx
+2025-09-18 10:33:12,465 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:33:12,466 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:33:12,466 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:33:12,489 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:33:12,527 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
+2025-09-18 10:37:41,198 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/11-09-2025_2.1.416
+2025-09-18 10:37:41,228 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO - Copia.docx
+2025-09-18 10:37:41,229 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:37:41,230 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-18 10:37:41,231 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-18 10:37:41,276 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4028.jpg
+2025-09-18 10:37:41,276 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-18 10:37:41,336 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
+2025-09-18 10:38:36,367 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Qa/08-09-2025_2.1.414
+2025-09-18 10:38:36,384 - INFO - Template carregado: C:/Users/alessandro.melo/Downloads/EVIDENCIAS - PROJETO AILOS - MODELO - Copia.docx
+2025-09-18 10:38:36,384 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-18 10:38:36,385 - INFO - Pasta processada: 1176549 - [PRJ0025406]4. [Conta Online] Adicionar o icone Check e Calendar o clock Nos comprovantes PDF Agendamento e Pagamento (nível 1) - 4 imagens
+2025-09-18 10:38:36,385 - INFO - Pasta processada: 1180406 - PRJ0025328 Bolepix - Aprensentar Bolepix no menu Cobrança Bancária (nível 1) - 5 imagens
+2025-09-18 10:38:36,386 - INFO - Pasta processada: 1180523 - PRJ0025328 Bolepix - Adesão ao Bolepix com chave aleatória existente (nível 1) - 6 imagens
+2025-09-18 10:38:36,386 - INFO - Pasta processada: 1180538 - PRJ0025328 Bolepix - Adesão ao Bolepix com nova chave (nível 1) - 3 imagens
+2025-09-18 10:38:36,386 - INFO - Pasta processada: 1180656 - PRJ0025328 Bolepix - Incluir o indicador do bolepix (nível 1) - 2 imagens
+2025-09-18 10:38:36,387 - INFO - Pasta processada: 1189675 - [PRJ0025512] [Conta Online] Alterar nomenclaturas dentro do menu 'reportar fraude' do Pix no Conta Online (nível 1) - 6 imagens
+2025-09-18 10:38:36,388 - INFO - Pasta processada: 1189681 - [PRJ0025512] [Conta Online] Alterar tela de listagem de transações para contestação de Pix no Conta Online (nível 1) - 9 imagens
+2025-09-18 10:38:36,389 - INFO - Pasta processada: 1189750 - [PRJ0025512] [Conta Online] Alterar tela inicial do menu 'contestar Pix' do Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:38:36,389 - INFO - Pasta processada: 1189758 - [PRJ0025512] [Conta Online] Criar pop-up de onboarding na tela inicial do menu 'contestar Pix do Pix no Conta Online (nível 1) - 2 imagens
+2025-09-18 10:38:36,390 - INFO - Pasta processada: 1189762 - [PRJ0025512] [Conta Online] Alterar tela de motivos para contestação de Pix no Conta Online (nível 1) - 0 imagens
+2025-09-18 10:38:36,391 - INFO - Pasta processada: Pix Automatico (nível 2) - 9 imagens
+2025-09-18 10:38:36,391 - INFO - Pasta processada: Pix Normal (nível 2) - 11 imagens
+2025-09-18 10:38:36,391 - INFO - Pasta processada: 1189792 - [PRJ0025512] [Conta Online] Alterar limite mínimo e máximo de caracteres do campo 'descrição' ao contestar um Pix no Conta Online (nível 1) - 3 imagens
+2025-09-18 10:38:36,392 - INFO - Pasta processada: 1189816 - [PRJ0025512] [Conta Online] Alterar tela 'próximos passos' na contestação de Pix no Conta Online (nível 1) - 1 imagens
+2025-09-18 10:38:36,393 - INFO - Pasta processada: 1189828 [PRJ0025512] [Conta Online] Alterar mensagem de sucesso e erro ao contestar um Pix NORMAL no Conta Online (nível 1) - 6 imagens
+2025-09-18 10:38:36,393 - INFO - Pasta processada: 1189835 [PRJ0025512] [Conta Online] Criar mensagem de sucesso e erro ao contestar um Pix AUTOMÁTICO no Conta Online (nível 1) - 7 imagens
+2025-09-18 10:38:36,394 - INFO - Pasta processada: 1189866 [PRJ0025512] [Conta Online] Alterar tela de detalhes de uma contestação de Pix no Conta Online (nível 1) - 1 imagens
+2025-09-18 10:38:36,394 - INFO - Pasta processada: 1189887 - [PRJ0025512] [Conta Online] Alterar tela de detalhes de uma contestação com status 'ACEITA' de Pix no Conta Online (nível 1) - 3 imagens
+2025-09-18 10:38:36,395 - INFO - Pasta processada: 1189892 - [PRJ0025512] [Conta Online] Alterar nomenclatura dos status de contestação Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:38:36,395 - INFO - Pasta processada: 1191872 - [PRJ0025328] [Conta Online] Nova mensagem de alerta ao cancelar chave Pix aleatória (nível 1) - 4 imagens
+2025-09-18 10:38:36,395 - INFO - Pasta processada: 1193673 - [PRJ0025512] [Conta Online] Criar tela de detalhes de uma transação do tipo 'Pix Automático' para contestação no Conta Online (nível 1) - 2 imagens
+2025-09-18 10:38:36,395 - INFO - Pasta processada: 1194683 - [PRJ0025512] [Conta Online] Criar botão de atalho para menu 'Contestar Pix' no menu 'Serviço de Atendimento Pix' (nível 1) - 3 imagens
+2025-09-18 10:38:36,398 - INFO - Pasta processada: 1195329 - PRJ0025328 Bolepix - Ajustes solicitados no protótipo e que aparecem no front da Conta Online (nível 1) - 1 imagens
+2025-09-18 10:38:36,398 - INFO - Pasta processada: 1197627 INC0415273  Análise Extrato OFX Corrompido (nível 1) - 4 imagens
+2025-09-18 10:38:36,398 - INFO - Pasta processada: 1200357 - [PRJ0025328] BOLEPIX [Crédito] - Inclusão mensagem cancelamento QR Code Descto de Título - Conta Online (nível 1) - 10 imagens
+2025-09-18 10:38:36,398 - INFO - Pasta processada: 1203376 - Efetuar Ajuste em Front IB para empréstimo Aimaro (nível 1) - 6 imagens
+2025-09-18 10:38:36,400 - INFO - Pasta processada: 1213647 - [PRJ0025512] [Conta Online] Ao criar uma contestação de Pix enviar o código do motivo no Conta Online (nível 1) - 5 imagens
+2025-09-18 10:38:36,401 - INFO - Pasta processada: 1213967 [PRJ0025328] - Bolepix - Acrescentar campo de Bolepix, na visualização dos detalhes do boleto boleto (nível 1) - 2 imagens
+2025-09-18 10:38:36,401 - INFO - Pasta processada: 1214415 - PRJ0025328 Bolepix - Aprensentar BolePix no menu Cobrança Bancária (nível 1) - 8 imagens
+2025-09-18 10:38:36,401 - INFO - Pasta processada: 1222992 - [PRJ0025512] [Conta Online] Incluir filtro SITUAÇÃO na tela de listagem de contestações de Pix no Conta Online (nível 1) - 4 imagens
+2025-09-18 10:38:36,401 - INFO - Pasta processada: 1226112 Validação ícones do comprovante - Conta Online (nível 1) - 4 imagens
+2025-09-18 10:38:36,407 - INFO - Imagem inserida: 01-agendamento.jpg
+2025-09-18 10:38:36,411 - INFO - Imagem inserida: 02-agendamento.jpg
+2025-09-18 10:38:36,416 - INFO - Imagem inserida: 03-pix-imediato.jpg
+2025-09-18 10:38:36,420 - INFO - Imagem inserida: 04-pix-imediato.jpg
+2025-09-18 10:38:36,424 - INFO - Imagem inserida: 01-botao lembre-me mais tarde.jpg
+2025-09-18 10:38:36,427 - INFO - Imagem inserida: 02-botao lembre-me mais tarde.jpg
+2025-09-18 10:38:36,433 - INFO - Imagem inserida: 03-botao nao mostrar novamente.jpg
+2025-09-18 10:38:36,437 - INFO - Imagem inserida: 04-operador sem permissão.jpg
+2025-09-18 10:38:36,441 - INFO - Imagem inserida: 05-operador sem permissão.jpg
+2025-09-18 10:38:36,447 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,452 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,457 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,463 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:36,468 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:36,474 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:36,484 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,484 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,498 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,506 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,513 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,521 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,528 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,537 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,545 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:36,555 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:36,561 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:36,575 - INFO - Imagem inserida: 01-listagem.jpg
+2025-09-18 10:38:36,589 - INFO - Imagem inserida: 02-listagem.jpg
+2025-09-18 10:38:36,601 - INFO - Imagem inserida: 03-filtro avancado.jpg
+2025-09-18 10:38:36,613 - INFO - Imagem inserida: 04-filtro avancado.jpg
+2025-09-18 10:38:36,624 - INFO - Imagem inserida: 05-filtro avancado.jpg
+2025-09-18 10:38:36,638 - INFO - Imagem inserida: 06-filtro avancado.jpg
+2025-09-18 10:38:36,652 - INFO - Imagem inserida: 07-filtro avancado.jpg
+2025-09-18 10:38:36,661 - INFO - Imagem inserida: 08-filtro avancado.jpg
+2025-09-18 10:38:36,681 - INFO - Imagem inserida: 09-filtro avancado.jpg
+2025-09-18 10:38:36,691 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,702 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,714 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,730 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:36,742 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,752 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,772 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,785 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,798 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,812 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:36,829 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:36,847 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:36,860 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:38:36,879 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:38:36,902 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:38:36,917 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:36,941 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:36,961 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:36,979 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:36,993 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:37,011 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:37,025 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:38:37,047 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:38:37,062 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:38:37,077 - INFO - Imagem inserida: 10.jpg
+2025-09-18 10:38:37,095 - INFO - Imagem inserida: 11.jpg
+2025-09-18 10:38:37,112 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,130 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,153 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,178 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3949.jpg
+2025-09-18 10:38:37,197 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,219 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,237 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,251 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:37,272 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:37,291 - INFO - Imagem inserida: 06-erro.jpg
+2025-09-18 10:38:37,311 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,328 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,343 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,365 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:37,383 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:37,403 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:37,422 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:38:37,444 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3954.jpg
+2025-09-18 10:38:37,472 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,495 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,516 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,535 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,557 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,578 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,603 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:37,624 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,646 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,668 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,691 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:37,718 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,739 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,760 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,783 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,804 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,837 - INFO - Imagem inserida: 01-QA_PSCECATPZ-3822.jpg
+2025-09-18 10:38:37,860 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,881 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,903 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:37,924 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:37,943 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:37,970 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:37,989 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:38,020 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:38,042 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:38,061 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:38,084 - INFO - Imagem inserida: 07.jpg
+2025-09-18 10:38:38,104 - INFO - Imagem inserida: 08.jpg
+2025-09-18 10:38:38,127 - INFO - Imagem inserida: 09.jpg
+2025-09-18 10:38:38,150 - INFO - Imagem inserida: 10.jpg
+2025-09-18 10:38:38,179 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:38,200 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:38,221 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:38,251 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:38,272 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:38,297 - INFO - Imagem inserida: 06.jpg
+2025-09-18 10:38:38,320 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:38,342 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:38,370 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:38,395 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:38,428 - INFO - Imagem inserida: 05.jpg
+2025-09-18 10:38:38,462 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:38,498 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:38,536 - INFO - Imagem inserida: 01-introducao.jpg
+2025-09-18 10:38:38,573 - INFO - Imagem inserida: 02-introducao.jpg
+2025-09-18 10:38:38,602 - INFO - Imagem inserida: 03-introducao.jpg
+2025-09-18 10:38:38,639 - INFO - Imagem inserida: 04-adesao.jpg
+2025-09-18 10:38:38,674 - INFO - Imagem inserida: 05-adesao.jpg
+2025-09-18 10:38:38,714 - INFO - Imagem inserida: 06-Enviar boleto pelos correios.jpg
+2025-09-18 10:38:38,745 - INFO - Imagem inserida: 07-Enviar boleto pelos correios.jpg
+2025-09-18 10:38:38,779 - INFO - Imagem inserida: 08-Enviar boleto pelos correios.jpg
+2025-09-18 10:38:38,809 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:38,845 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:38,882 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:38,915 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:38,961 - INFO - Imagem inserida: 01.jpg
+2025-09-18 10:38:39,000 - INFO - Imagem inserida: 02.jpg
+2025-09-18 10:38:39,042 - INFO - Imagem inserida: 03.jpg
+2025-09-18 10:38:39,079 - INFO - Imagem inserida: 04.jpg
+2025-09-18 10:38:39,080 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-18 10:38:40,035 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
