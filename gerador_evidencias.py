@@ -1,19 +1,23 @@
-import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
+import customtkinter as ctk
+from tkinter import filedialog, messagebox
 import os
+import subprocess
+import threading
 from processador_documentos import ProcessadorDocumentos
+
+# Configurar tema moderno (será alterado dinamicamente)
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
 class GeradorEvidencias:
     def __init__(self):
-        self.root = tk.Tk()
-        self.root.title("Gerador de Evidências de Testes")
-        self.root.geometry("900x700")
-        self.root.resizable(False, False)
-        self.root.configure(bg='#f0f0f0')
+        self.root = ctk.CTk()
+        self.root.title("🔧 Gerador de Evidências de Testes")
+        self.root.geometry("1100x900")
         
-        # Configurar estilo moderno
-        self.style = ttk.Style()
-        self.style.theme_use('clam')
+        # Variáveis de controle
+        self.tema_escuro = True
+        self.arquivo_gerado = None
         
         # Diretórios base
         self.base_test = r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Test"
@@ -23,135 +27,410 @@ class GeradorEvidencias:
         self.criar_interface()
     
     def criar_interface(self):
-        # Frame principal com estilo moderno
-        main_frame = ttk.Frame(self.root, padding="30")
-        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
-        self.root.columnconfigure(0, weight=1)
-        self.root.rowconfigure(0, weight=1)
-        main_frame.columnconfigure(1, weight=1)
-        main_frame.rowconfigure(5, weight=1)
+        # Frame principal
+        main_frame = ctk.CTkFrame(self.root, corner_radius=15)
+        main_frame.pack(fill="both", expand=True, padx=20, pady=20)
         
-        # Título moderno
-        titulo = ttk.Label(main_frame, text="🔧 Gerador de Evidências de Testes", 
-                          font=("Segoe UI", 18, "bold"))
-        titulo.grid(row=0, column=0, columnspan=2, pady=(0, 30))
+        # Frame do cabeçalho com indicador de status
+        top_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
+        top_frame.pack(fill="x", pady=(20, 0))
         
-        # Subtítulo
-        subtitulo = ttk.Label(main_frame, text="Sistema automatizado para geração de documentos de evidências", 
-                             font=("Segoe UI", 10))
-        subtitulo.grid(row=1, column=0, columnspan=2, pady=(0, 20))
+        # Frame do indicador de status
+        status_frame = ctk.CTkFrame(top_frame, fg_color="transparent")
+        status_frame.pack(side="left", padx=(10, 0))
         
-        # Frame de seleções
-        selecao_frame = ttk.LabelFrame(main_frame, text="⚙️ Configurações", padding="20")
-        selecao_frame.grid(row=2, column=0, columnspan=2, pady=(0, 20), sticky=(tk.W, tk.E))
-        selecao_frame.columnconfigure(1, weight=1)
+        # Indicador de status dos diretórios (canto superior esquerdo)
+        self.status_indicator = ctk.CTkLabel(status_frame, text="●", font=ctk.CTkFont(size=28), 
+                                           text_color="#FFA500", width=40)
+        self.status_indicator.pack()
+        
+        # Texto explicativo
+        status_text = ctk.CTkLabel(status_frame, text="Status Conexão com\ndiretórios do sistema", 
+                                  font=ctk.CTkFont(size=9), justify="center")
+        status_text.pack()
+        
+        # Título centralizado
+        titulo_frame = ctk.CTkFrame(top_frame, fg_color="transparent")
+        titulo_frame.pack(expand=True, fill="x")
+        
+        titulo = ctk.CTkLabel(titulo_frame, text="🔧 Gerador de Evidências de Testes", 
+                             font=ctk.CTkFont(size=24, weight="bold"))
+        titulo.pack(expand=True, pady=(5, 5))
+        
+        # Subtítulo e controles de tema
+        header_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
+        header_frame.pack(fill="x", pady=(0, 10))
+        
+        # Frame centralizado para subtítulo
+        subtitle_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
+        subtitle_frame.pack(expand=True, fill="x")
+        
+        subtitulo = ctk.CTkLabel(subtitle_frame, text="Sistema automatizado para geração de documentos de evidências",
+                                font=ctk.CTkFont(size=14))
+        subtitulo.pack()
+        
+        # Switch de tema (posicionado à direita)
+        tema_frame = ctk.CTkFrame(top_frame, fg_color="transparent")
+        tema_frame.pack(side="right", padx=(0, 10))
+        
+        ctk.CTkLabel(tema_frame, text="🌙", font=ctk.CTkFont(size=16)).pack(side="left", padx=(0, 5))
+        self.tema_switch = ctk.CTkSwitch(tema_frame, text="", command=self.alternar_tema, width=50)
+        self.tema_switch.select()  # Inicia em dark
+        self.tema_switch.pack(side="left")
+        ctk.CTkLabel(tema_frame, text="☀️", font=ctk.CTkFont(size=16)).pack(side="left", padx=(5, 0))
+        
+        # Frame de configurações
+        config_frame = ctk.CTkFrame(main_frame, corner_radius=10)
+        config_frame.pack(fill="x", padx=30, pady=(0, 10))
         
         # Seleção de versão
-        ttk.Label(selecao_frame, text="📋 Ambiente:", font=("Segoe UI", 10, "bold")).grid(row=0, column=0, sticky=tk.W, pady=10)
-        self.versao_var = tk.StringVar()
-        self.versao_combo = ttk.Combobox(selecao_frame, textvariable=self.versao_var, 
-                                        values=["TEST", "QA"], state="readonly", width=50, font=('Segoe UI', 10))
-        self.versao_combo.grid(row=0, column=1, padx=(10, 0), sticky=(tk.W, tk.E))
-        self.versao_combo.bind('<<ComboboxSelected>>', self.on_versao_change)
+        ctk.CTkLabel(config_frame, text="📋 Ambiente:", 
+                    font=ctk.CTkFont(size=14, weight="bold")).pack(anchor="w", padx=20, pady=(15, 5))
+        
+        self.versao_var = ctk.StringVar()
+        self.versao_combo = ctk.CTkComboBox(config_frame, values=["TEST", "QA"], 
+                                           variable=self.versao_var, command=self.on_versao_change,
+                                           font=ctk.CTkFont(size=12), height=35)
+        self.versao_combo.pack(fill="x", padx=20, pady=(0, 2))
+        
+        # Frame para crítica e botão ambiente
+        ambiente_frame = ctk.CTkFrame(config_frame, fg_color="transparent")
+        ambiente_frame.pack(fill="x", padx=20, pady=(0, 15))
+        
+        self.critica_ambiente = ctk.CTkLabel(ambiente_frame, text="", 
+                                           font=ctk.CTkFont(size=10), text_color="#FF0000")
+        self.critica_ambiente.pack(side="left")
+        
+        self.btn_navegar_ambiente = ctk.CTkButton(ambiente_frame, text="📁 Navegar", 
+                                                 command=self.navegar_ambiente, width=80, height=25,
+                                                 font=ctk.CTkFont(size=10))
+        # Botão inicialmente oculto
         
         # Seleção de pasta
-        ttk.Label(selecao_frame, text="📁 Pasta:", font=("Segoe UI", 10, "bold")).grid(row=1, column=0, sticky=tk.W, pady=10)
-        self.pasta_var = tk.StringVar()
-        self.pasta_combo = ttk.Combobox(selecao_frame, textvariable=self.pasta_var, 
-                                       state="readonly", width=50, font=('Segoe UI', 10))
-        self.pasta_combo.grid(row=1, column=1, padx=(10, 0), sticky=(tk.W, tk.E))
+        ctk.CTkLabel(config_frame, text="📁 Pasta:", 
+                    font=ctk.CTkFont(size=14, weight="bold")).pack(anchor="w", padx=20, pady=(0, 5))
+        
+        self.pasta_var = ctk.StringVar()
+        self.pasta_combo = ctk.CTkComboBox(config_frame, variable=self.pasta_var,
+                                          font=ctk.CTkFont(size=12), height=35)
+        self.pasta_combo.pack(fill="x", padx=20, pady=(0, 15))
         
         # Seleção de template
-        ttk.Label(selecao_frame, text="📄 Template:", font=("Segoe UI", 10, "bold")).grid(row=2, column=0, sticky=tk.W, pady=10)
-        self.template_var = tk.StringVar()
-        self.template_combo = ttk.Combobox(selecao_frame, textvariable=self.template_var, 
-                                          state="readonly", width=50, font=('Segoe UI', 10))
-        self.template_combo.grid(row=2, column=1, padx=(10, 0), sticky=(tk.W, tk.E))
+        ctk.CTkLabel(config_frame, text="📄 Template:", 
+                    font=ctk.CTkFont(size=14, weight="bold")).pack(anchor="w", padx=20, pady=(0, 5))
         
-        # Inicializar após criar todos os componentes
+        self.template_var = ctk.StringVar()
+        self.template_combo = ctk.CTkComboBox(config_frame, variable=self.template_var,
+                                             font=ctk.CTkFont(size=12), height=35)
+        self.template_combo.pack(fill="x", padx=20, pady=(0, 2))
+        
+        # Frame para crítica e botão template
+        template_frame = ctk.CTkFrame(config_frame, fg_color="transparent")
+        template_frame.pack(fill="x", padx=20, pady=(0, 15))
+        
+        self.critica_template = ctk.CTkLabel(template_frame, text="", 
+                                           font=ctk.CTkFont(size=10), text_color="#FF0000")
+        self.critica_template.pack(side="left")
+        
+        self.btn_navegar_template = ctk.CTkButton(template_frame, text="📁 Navegar", 
+                                                 command=self.navegar_template, width=80, height=25,
+                                                 font=ctk.CTkFont(size=10))
+        # Botão inicialmente oculto
+        
+        # Frame para configurações em linha
+        config_inline_frame = ctk.CTkFrame(config_frame, fg_color="transparent")
+        config_inline_frame.pack(fill="x", padx=20, pady=(0, 15))
+        
+        # Largura das imagens
+        largura_frame = ctk.CTkFrame(config_inline_frame, fg_color="transparent")
+        largura_frame.pack(side="left", fill="x", expand=True, padx=(0, 10))
+        
+        ctk.CTkLabel(largura_frame, text="🖼️ Largura (pol.):", 
+                    font=ctk.CTkFont(size=12, weight="bold")).pack(anchor="w")
+        
+        self.largura_var = ctk.StringVar(value="6.0")
+        largura_entry = ctk.CTkEntry(largura_frame, textvariable=self.largura_var, 
+                                    font=ctk.CTkFont(size=12), height=35, width=80)
+        largura_entry.pack(fill="x")
+        
+        # Qualidade da imagem
+        qualidade_frame = ctk.CTkFrame(config_inline_frame, fg_color="transparent")
+        qualidade_frame.pack(side="right", fill="x", expand=True, padx=(10, 0))
+        
+        ctk.CTkLabel(qualidade_frame, text="📊 Qualidade:", 
+                    font=ctk.CTkFont(size=12, weight="bold")).pack(anchor="w")
+        
+        self.qualidade_var = ctk.StringVar(value="Alta")
+        qualidade_combo = ctk.CTkComboBox(qualidade_frame, values=["Alta (Padrão)", "Média (Otimizada)", "Baixa (Documentos Grandes)"],
+                                         variable=self.qualidade_var, font=ctk.CTkFont(size=12), height=35)
+        qualidade_combo.pack(fill="x")
+        
+        # Botões
+        button_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
+        button_frame.pack(pady=10)
+        
+        gerar_btn = ctk.CTkButton(button_frame, text="🚀 Gerar Documento", 
+                                 command=self.gerar_documento, height=45, width=180,
+                                 font=ctk.CTkFont(size=14, weight="bold"))
+        gerar_btn.pack(side="left", padx=5)
+        
+        templates_btn = ctk.CTkButton(button_frame, text="📁 Gerenciar Templates", 
+                                     command=self.gerenciar_templates, height=45, width=180,
+                                     font=ctk.CTkFont(size=14, weight="bold"), fg_color="orange", hover_color="darkorange")
+        templates_btn.pack(side="left", padx=5)
+        
+        sair_btn = ctk.CTkButton(button_frame, text="❌ Sair", command=self.root.quit,
+                                height=45, width=100, fg_color="gray", hover_color="darkgray",
+                                font=ctk.CTkFont(size=14, weight="bold"))
+        sair_btn.pack(side="left", padx=5)
+        
+        # Área de progresso (sempre visível)
+        self.progress_frame = ctk.CTkFrame(main_frame, corner_radius=10, height=80)
+        self.progress_frame.pack(fill="x", padx=30, pady=(0, 15))
+        
+        ctk.CTkLabel(self.progress_frame, text="🚀 Progresso da Geração", 
+                    font=ctk.CTkFont(size=16, weight="bold")).pack(pady=(15, 5))
+        
+        self.progress_label = ctk.CTkLabel(self.progress_frame, text="Aguardando...", 
+                                          font=ctk.CTkFont(size=12))
+        self.progress_label.pack(pady=(0, 8))
+        
+        self.progress_bar = ctk.CTkProgressBar(self.progress_frame, width=300, height=15, 
+                                              progress_color="#008000")
+        self.progress_bar.pack(pady=(0, 15))
+        self.progress_bar.set(0)
+        
+        # Inicializar dados
         self.root.after(100, self.inicializar_dados)
         
-        # Configurações avançadas
-        config_frame = ttk.LabelFrame(main_frame, text="🔧 Configurações Avançadas", padding="20")
-        config_frame.grid(row=3, column=0, columnspan=2, pady=(0, 20), sticky=(tk.W, tk.E))
-        
-        ttk.Label(config_frame, text="Largura das imagens (polegadas):", font=("Segoe UI", 10)).grid(row=0, column=0, sticky=tk.W)
-        self.largura_var = tk.StringVar(value="6.0")
-        largura_entry = ttk.Entry(config_frame, textvariable=self.largura_var, width=15)
-        largura_entry.grid(row=0, column=1, padx=(10, 0), sticky=tk.W)
-        
-        # Botões de ação modernos
-        button_frame = ttk.Frame(main_frame)
-        button_frame.grid(row=4, column=0, columnspan=2, pady=30)
-        
-        # Estilo para botões
-        self.style.configure('Modern.TButton', font=('Segoe UI', 11, 'bold'), padding=(20, 10))
-        
-        gerar_btn = ttk.Button(button_frame, text="🚀 Gerar Documento", command=self.gerar_documento, 
-                              style="Modern.TButton")
-        gerar_btn.pack(side=tk.LEFT, padx=10)
-        
-        sair_btn = ttk.Button(button_frame, text="❌ Sair", command=self.root.quit, 
-                             style="Modern.TButton")
-        sair_btn.pack(side=tk.LEFT, padx=10)
-        
-        # Área de log moderna
-        log_frame = ttk.LabelFrame(main_frame, text="📋 Log de Execução", padding="10")
-        log_frame.grid(row=5, column=0, columnspan=2, pady=(0, 10), sticky=(tk.W, tk.E, tk.N, tk.S))
-        
-        self.log_text = tk.Text(log_frame, height=8, width=80, font=("Consolas", 9),
-                               bg='#2d2d2d', fg='#ffffff', insertbackground='white', wrap=tk.WORD)
-        scrollbar = ttk.Scrollbar(log_frame, orient="vertical", command=self.log_text.yview)
-        self.log_text.configure(yscrollcommand=scrollbar.set)
-        
-        self.log_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        # Verificar status dos diretórios
+        self.root.after(200, self.verificar_status_diretorios)
     
-    def on_versao_change(self, event=None):
-        versao = self.versao_var.get()
-        if versao == "TEST":
+    def on_versao_change(self, choice):
+        if choice == "TEST":
             self.carregar_pastas(self.base_test)
-            self.log(f"🔄 Versão selecionada: {versao} - Carregando pastas de teste...")
-        elif versao == "QA":
+            self.log(f"🔄 Ambiente selecionado: {choice} - Carregando pastas...")
+        elif choice == "QA":
             self.carregar_pastas(self.base_qa)
-            self.log(f"🔄 Versão selecionada: {versao} - Carregando pastas de QA...")
+            self.log(f"🔄 Ambiente selecionado: {choice} - Carregando pastas...")
     
     def carregar_pastas(self, base_dir):
         try:
             if os.path.exists(base_dir):
                 pastas = [d for d in os.listdir(base_dir) 
                          if os.path.isdir(os.path.join(base_dir, d))]
-                self.pasta_combo['values'] = pastas
+                self.pasta_combo.configure(values=pastas)
                 self.pasta_var.set('')
                 self.log(f"✅ Carregadas {len(pastas)} pastas disponíveis")
             else:
-                self.pasta_combo['values'] = []
+                self.pasta_combo.configure(values=[])
                 self.log(f"❌ Diretório não encontrado: {base_dir}")
         except Exception as e:
             self.log(f"❌ Erro ao carregar pastas: {str(e)}")
     
+    def verificar_status_diretorios(self):
+        """Verifica se todos os diretórios estão acessíveis"""
+        # Verificar cada diretório individualmente
+        test_ok = os.path.exists(self.base_test) and os.path.isdir(self.base_test)
+        qa_ok = os.path.exists(self.base_qa) and os.path.isdir(self.base_qa)
+        templates_ok = os.path.exists(self.base_templates) and os.path.isdir(self.base_templates)
+        
+        status_list = [test_ok, qa_ok, templates_ok]
+        
+        # Atualizar indicador geral
+        if all(status_list):
+            self.status_indicator.configure(text_color="#008000")
+        elif any(status_list):
+            self.status_indicator.configure(text_color="#FFA500")
+        else:
+            self.status_indicator.configure(text_color="#FF0000")
+        
+        # Controlar estado dos campos
+        self.controlar_campos_por_status(test_ok, qa_ok, templates_ok)
+    
+    def controlar_campos_por_status(self, test_ok, qa_ok, templates_ok):
+        """Controla estado dos campos baseado no status dos diretórios"""
+        # Controlar campo ambiente
+        if not test_ok and not qa_ok:
+            self.versao_combo.configure(state="disabled")
+            self.critica_ambiente.configure(text="Sem conexão com diretório")
+            self.btn_navegar_ambiente.pack(side="right", padx=(10, 0))
+        else:
+            self.versao_combo.configure(state="normal")
+            self.critica_ambiente.configure(text="")
+            self.btn_navegar_ambiente.pack_forget()
+            # Atualizar valores disponíveis
+            valores_disponiveis = []
+            if test_ok:
+                valores_disponiveis.append("TEST")
+            if qa_ok:
+                valores_disponiveis.append("QA")
+            self.versao_combo.configure(values=valores_disponiveis)
+        
+        # Controlar campo template
+        if not templates_ok:
+            self.template_combo.configure(state="disabled")
+            self.critica_template.configure(text="Sem conexão com diretório")
+            self.btn_navegar_template.pack(side="right", padx=(10, 0))
+        else:
+            self.template_combo.configure(state="normal")
+            self.critica_template.configure(text="")
+            self.btn_navegar_template.pack_forget()
+    
+    def navegar_ambiente(self):
+        """Permite navegar manualmente para selecionar diretório de ambiente"""
+        diretorio = filedialog.askdirectory(title="Selecionar Diretório de Ambiente (TEST ou QA)")
+        if diretorio:
+            # Determinar se é TEST ou QA baseado no caminho
+            if "Test" in diretorio or "TEST" in diretorio:
+                self.base_test = diretorio
+                self.versao_combo.configure(values=["TEST"], state="normal")
+                self.versao_var.set("TEST")
+                self.carregar_pastas(self.base_test)
+            elif "Qa" in diretorio or "QA" in diretorio:
+                self.base_qa = diretorio
+                self.versao_combo.configure(values=["QA"], state="normal")
+                self.versao_var.set("QA")
+                self.carregar_pastas(self.base_qa)
+            else:
+                # Permitir usar qualquer diretório como TEST
+                self.base_test = diretorio
+                self.versao_combo.configure(values=["TEST"], state="normal")
+                self.versao_var.set("TEST")
+                self.carregar_pastas(self.base_test)
+            
+            self.critica_ambiente.configure(text="")
+            self.btn_navegar_ambiente.pack_forget()
+            self.verificar_status_diretorios()
+    
+    def navegar_template(self):
+        """Permite navegar manualmente para selecionar diretório de templates"""
+        diretorio = filedialog.askdirectory(title="Selecionar Diretório de Templates")
+        if diretorio:
+            self.base_templates = diretorio
+            self.template_combo.configure(state="normal")
+            self.carregar_templates()
+            self.critica_template.configure(text="")
+            self.btn_navegar_template.pack_forget()
+            self.verificar_status_diretorios()
+    
     def inicializar_dados(self):
         self.carregar_templates()
-        self.log("🚀 Sistema inicializado com sucesso! Pronto para uso.")
+        self.log("🚀 Sistema inicializado! Interface moderna carregada.")
     
     def carregar_templates(self):
         try:
             if os.path.exists(self.base_templates):
                 templates = [f for f in os.listdir(self.base_templates) 
                            if f.endswith('.docx')]
-                self.template_combo['values'] = templates
+                self.template_combo.configure(values=templates)
                 if templates:
                     self.template_var.set(templates[0])
                 self.log(f"✅ Carregados {len(templates)} templates disponíveis")
             else:
-                self.template_combo['values'] = []
+                self.template_combo.configure(values=[])
                 self.log(f"❌ Diretório de templates não encontrado")
         except Exception as e:
             self.log(f"❌ Erro ao carregar templates: {str(e)}")
     
+    def alternar_tema(self):
+        self.tema_escuro = not self.tema_escuro
+        modo = "dark" if self.tema_escuro else "light"
+        ctk.set_appearance_mode(modo)
+        self.log(f"🎨 Tema alterado para: {modo}")
+    
+    def mostrar_progresso(self, texto="Processando..."):
+        self.progress_label.configure(text=texto)
+        self.progress_bar.set(0)
+        self.root.update()
+    
+    def ocultar_progresso(self):
+        self.progress_label.configure(text="Aguardando...")
+        self.progress_bar.set(0)
+        self.root.update()
+    
+    def atualizar_progresso(self, valor, texto, status=""):
+        self.progress_bar.set(valor)
+        if status:
+            self.progress_label.configure(text=f"{texto} - {status}")
+        else:
+            self.progress_label.configure(text=texto)
+        self.root.update()
+    
+    def gerenciar_templates(self):
+        # Janela de gerenciamento de templates
+        template_window = ctk.CTkToplevel(self.root)
+        template_window.title("📁 Gerenciar Templates")
+        template_window.geometry("600x400")
+        template_window.transient(self.root)
+        
+        # Lista de templates
+        ctk.CTkLabel(template_window, text="Templates Disponíveis", 
+                    font=ctk.CTkFont(size=16, weight="bold")).pack(pady=(20, 10))
+        
+        # Frame para lista
+        list_frame = ctk.CTkFrame(template_window)
+        list_frame.pack(fill="both", expand=True, padx=20, pady=(0, 20))
+        
+        self.template_listbox = ctk.CTkTextbox(list_frame, height=200)
+        self.template_listbox.pack(fill="both", expand=True, padx=10, pady=10)
+        
+        # Botões de ação
+        btn_frame = ctk.CTkFrame(template_window, fg_color="transparent")
+        btn_frame.pack(pady=10)
+        
+        ctk.CTkButton(btn_frame, text="➕ Adicionar", command=self.adicionar_template, width=120).pack(side="left", padx=5)
+        ctk.CTkButton(btn_frame, text="🗑️ Remover", command=self.remover_template, width=120, fg_color="red").pack(side="left", padx=5)
+        ctk.CTkButton(btn_frame, text="🔄 Atualizar", command=self.atualizar_lista_templates, width=120).pack(side="left", padx=5)
+        
+        self.atualizar_lista_templates()
+    
+    def adicionar_template(self):
+        arquivo = filedialog.askopenfilename(
+            title="Selecionar Template",
+            filetypes=[("Documentos Word", "*.docx")]
+        )
+        if arquivo:
+            import shutil
+            nome_arquivo = os.path.basename(arquivo)
+            destino = os.path.join(self.base_templates, nome_arquivo)
+            try:
+                shutil.copy2(arquivo, destino)
+                self.log(f"✅ Template adicionado: {nome_arquivo}")
+                self.atualizar_lista_templates()
+                self.carregar_templates()
+            except Exception as e:
+                self.log(f"❌ Erro ao adicionar template: {str(e)}")
+    
+    def remover_template(self):
+        # Implementação simplificada - remove o template selecionado
+        templates = [f for f in os.listdir(self.base_templates) if f.endswith('.docx')]
+        if templates:
+            # Para simplicidade, remove o primeiro template (pode ser melhorado)
+            template_para_remover = templates[0]
+            resposta = messagebox.askyesno("Confirmar", f"Remover template '{template_para_remover}'?")
+            if resposta:
+                try:
+                    os.remove(os.path.join(self.base_templates, template_para_remover))
+                    self.log(f"🗑️ Template removido: {template_para_remover}")
+                    self.atualizar_lista_templates()
+                    self.carregar_templates()
+                except Exception as e:
+                    self.log(f"❌ Erro ao remover template: {str(e)}")
+    
+    def atualizar_lista_templates(self):
+        if hasattr(self, 'template_listbox'):
+            self.template_listbox.delete("1.0", "end")
+            try:
+                templates = [f for f in os.listdir(self.base_templates) if f.endswith('.docx')]
+                for i, template in enumerate(templates, 1):
+                    self.template_listbox.insert("end", f"{i}. {template}\n")
+            except Exception as e:
+                self.template_listbox.insert("end", f"Erro ao listar templates: {str(e)}")
+    
     def gerar_documento(self):
         if not self.versao_var.get():
-            messagebox.showerror("Erro", "Selecione uma versão (TEST ou QA)")
+            messagebox.showerror("Erro", "Selecione um ambiente (TEST ou QA)")
             return
         
         if not self.pasta_var.get():
@@ -189,28 +468,79 @@ class GeradorEvidencias:
         if not arquivo_saida:
             return
         
-        self.log("🔄 Iniciando geração do documento...")
+        self.arquivo_gerado = arquivo_saida
         
+        # Executar geração em thread separada
+        thread = threading.Thread(target=self.processar_documento, 
+                                 args=(template_selecionado, diretorio_selecionado, arquivo_saida, largura))
+        thread.daemon = True
+        thread.start()
+    
+    def processar_documento(self, template_selecionado, diretorio_selecionado, arquivo_saida, largura):
         try:
+            self.mostrar_progresso("Iniciando processamento...")
+            self.log("🔄 Iniciando geração do documento...")
+            
+            # Contar imagens para progresso
+            total_imagens = 0
+            for root, dirs, files in os.walk(diretorio_selecionado):
+                total_imagens += len([f for f in files if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
+            
+            self.atualizar_progresso(0.1, "Analisando diretório", f"Encontradas {total_imagens} imagens")
+            
             processador = ProcessadorDocumentos(template_selecionado, largura)
+            
+            # Configurar qualidade baseada na seleção
+            qualidade = self.qualidade_var.get()
+            if "Média" in qualidade:
+                processador.qualidade_imagem = 0.7
+            elif "Baixa" in qualidade:
+                processador.qualidade_imagem = 0.5
+            else:
+                processador.qualidade_imagem = 1.0
+            
+            self.atualizar_progresso(0.2, "Carregando template", "Preparando documento")
+            
             sucesso = processador.processar_diretorio(diretorio_selecionado, arquivo_saida)
+            
+            self.atualizar_progresso(1.0, "Documento gerado com sucesso!", "Processo concluído")
             
             if sucesso:
                 self.log("✅ Documento gerado com sucesso!")
-                messagebox.showinfo("Sucesso", f"Documento gerado:\n{arquivo_saida}")
+                self.root.after(100, self.mostrar_opcoes_pos_geracao)
             else:
                 self.log("❌ Erro na geração do documento")
-                messagebox.showerror("Erro", "Falha na geração do documento")
+                self.root.after(100, lambda: messagebox.showerror("Erro", "Falha na geração do documento"))
                 
         except Exception as e:
             self.log(f"❌ Erro: {str(e)}")
-            messagebox.showerror("Erro", f"Erro na geração: {str(e)}")
+            self.root.after(100, lambda: messagebox.showerror("Erro", f"Erro na geração: {str(e)}"))
+        finally:
+            self.root.after(3000, self.ocultar_progresso)
+    
+    def mostrar_opcoes_pos_geracao(self):
+        resposta = messagebox.askyesnocancel(
+            "Documento Gerado", 
+            f"Documento gerado com sucesso!\n\n{self.arquivo_gerado}\n\nDeseja:",
+            **{"detail": "Sim = Abrir no Word | Não = Abrir pasta | Cancelar = Fechar"}
+        )
+        
+        if resposta is True:  # Sim - Abrir no Word
+            try:
+                os.startfile(self.arquivo_gerado)
+                self.log("📄 Documento aberto no Word")
+            except Exception as e:
+                self.log(f"❌ Erro ao abrir documento: {str(e)}")
+        elif resposta is False:  # Não - Abrir pasta
+            try:
+                pasta = os.path.dirname(self.arquivo_gerado)
+                os.startfile(pasta)
+                self.log("📁 Pasta de destino aberta")
+            except Exception as e:
+                self.log(f"❌ Erro ao abrir pasta: {str(e)}")
     
     def log(self, mensagem):
-        if hasattr(self, 'log_text'):
-            self.log_text.insert(tk.END, f"[{self.get_timestamp()}] {mensagem}\n")
-            self.log_text.see(tk.END)
-            self.root.update()
+        pass  # Log removido
     
     def get_timestamp(self):
         from datetime import datetime

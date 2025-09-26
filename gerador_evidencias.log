@@ -822,3 +822,324 @@
 2025-09-26 13:08:58,209 - INFO - Imagem inserida: 03-situacao Cancelada.jpg
 2025-09-26 13:08:58,212 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
 2025-09-26 13:08:58,401 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 13:56:45,274 - INFO - Iniciando processamento do diretório: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Test\12-09-2025_4.1.267
+2025-09-26 13:56:45,320 - INFO - Template carregado: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-GERADOR-DE-EVIDENCIAS\Modelo de doc para geracao\EVIDENCIAS - MODELO.docx
+2025-09-26 13:56:45,321 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 13:56:45,322 - INFO - Pasta processada: 1002316 - [INC0367451] - Pix - Agendamentos iguais estão sendo permitidos no Conta Online (nível 1) - 0 imagens
+2025-09-26 13:56:45,325 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 9 imagens
+2025-09-26 13:56:45,326 - INFO - Pasta processada: Pix por Chaves (nível 2) - 8 imagens
+2025-09-26 13:56:45,328 - INFO - Pasta processada: Pix por Dados Bancarios (nível 2) - 10 imagens
+2025-09-26 13:56:45,329 - INFO - Pasta processada: 1173067 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 13:56:45,330 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 23 imagens
+2025-09-26 13:56:45,332 - INFO - Pasta processada: Pix por Chaves (nível 2) - 16 imagens
+2025-09-26 13:56:45,333 - INFO - Pasta processada: Pix por Dados Manuais (nível 2) - 25 imagens
+2025-09-26 13:56:45,334 - INFO - Pasta processada: 1173068 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 13:56:45,336 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 8 imagens
+2025-09-26 13:56:45,337 - INFO - Pasta processada: Pix por chaves (nível 2) - 8 imagens
+2025-09-26 13:56:45,338 - INFO - Pasta processada: Pix por Dados Bancários (nível 2) - 8 imagens
+2025-09-26 13:56:45,340 - INFO - Pasta processada: 1184525 - [PRJ0025397][Conta Online][BFF] Adequar BFF para validar MFA e OFD ao validar transação (nível 1) - 4 imagens
+2025-09-26 13:56:45,341 - INFO - Pasta processada: 1204988 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato - Comprovante Tela (nível 1) - 3 imagens
+2025-09-26 13:56:45,343 - INFO - Pasta processada: 1204990 - [Squad PIX Recebimentos]  [Conta Online]  [PDF]  Agendamento recorrente com Pix Imediato - Comprovante PDF (nível 1) - 2 imagens
+2025-09-26 13:56:45,344 - INFO - Pasta processada: 1204992 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato - Comprovante (nível 1) - 3 imagens
+2025-09-26 13:56:45,345 - INFO - Pasta processada: 1226112 - Validação ícones do comprovante - Conta Online (nível 1) - 4 imagens
+2025-09-26 13:56:45,346 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-26 13:56:45,347 - INFO - Pasta processada: 1230179 - Adicionar Imagem Contestação (nível 2) - 1 imagens
+2025-09-26 13:56:45,349 - INFO - Pasta processada: 1230182 - Cores Status (nível 2) - 1 imagens
+2025-09-26 13:56:45,351 - INFO - Pasta processada: 1230234 - Contestar - Situação Relato (nível 2) - 1 imagens
+2025-09-26 13:56:45,352 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-26 13:56:45,353 - INFO - Pasta processada: 1229845 - [FrontEnd] Erro na Adesão ao Bolepix pela CO (nível 1) - 5 imagens
+2025-09-26 13:56:45,483 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:45,564 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:45,647 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:45,736 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:56:45,831 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:56:45,912 - INFO - Imagem inserida: 06.jpg
+2025-09-26 13:56:46,001 - INFO - Imagem inserida: 07.jpg
+2025-09-26 13:56:46,086 - INFO - Imagem inserida: 08.jpg
+2025-09-26 13:56:46,171 - INFO - Imagem inserida: 09.jpg
+2025-09-26 13:56:46,257 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:46,337 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:46,422 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:46,519 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:56:46,611 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:56:46,688 - INFO - Imagem inserida: 06.jpg
+2025-09-26 13:56:46,775 - INFO - Imagem inserida: 07.jpg
+2025-09-26 13:56:46,877 - INFO - Imagem inserida: 08.jpg
+2025-09-26 13:56:46,971 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:47,060 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:47,149 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:47,255 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:56:47,354 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:56:47,446 - INFO - Imagem inserida: 06.jpg
+2025-09-26 13:56:47,538 - INFO - Imagem inserida: 07.jpg
+2025-09-26 13:56:47,631 - INFO - Imagem inserida: 09.jpg
+2025-09-26 13:56:47,724 - INFO - Imagem inserida: 10.jpg
+2025-09-26 13:56:47,820 - INFO - Imagem inserida: 11.jpg
+2025-09-26 13:56:47,888 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 13:56:47,941 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 13:56:48,010 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 13:56:48,074 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 13:56:48,136 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 13:56:48,194 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 13:56:48,259 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 13:56:48,324 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 13:56:48,390 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 13:56:48,463 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 13:56:48,527 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 13:56:48,590 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 13:56:48,653 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 13:56:48,721 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 13:56:48,776 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 13:56:48,847 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 13:56:48,917 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 13:56:48,983 - INFO - Imagem inserida: 18-agendamento-semanal.jpg
+2025-09-26 13:56:49,049 - INFO - Imagem inserida: 19-agendamento-semanal.jpg
+2025-09-26 13:56:49,119 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 13:56:49,182 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 13:56:49,252 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 13:56:49,321 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 13:56:49,422 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:49,523 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 13:56:49,618 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 13:56:49,716 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 13:56:49,816 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 13:56:49,920 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 13:56:50,027 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 13:56:50,127 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 13:56:50,224 - INFO - Imagem inserida: 09-agendamento-mensal.jpg
+2025-09-26 13:56:50,319 - INFO - Imagem inserida: 10-agendamento-mensal.jpg
+2025-09-26 13:56:50,422 - INFO - Imagem inserida: 11-agendamento-mensal.jpg
+2025-09-26 13:56:50,523 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 13:56:50,622 - INFO - Imagem inserida: 13-agendamento-semanal.jpg
+2025-09-26 13:56:50,725 - INFO - Imagem inserida: 14-agendamento-semanal.jpg
+2025-09-26 13:56:50,823 - INFO - Imagem inserida: 15-agendamento-semanal.jpg
+2025-09-26 13:56:50,925 - INFO - Imagem inserida: 16-agendamento-semanal.jpg
+2025-09-26 13:56:50,999 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 13:56:51,068 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 13:56:51,140 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 13:56:51,201 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 13:56:51,287 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 13:56:51,354 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 13:56:51,423 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 13:56:51,491 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 13:56:51,573 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 13:56:51,649 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 13:56:51,720 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 13:56:51,794 - INFO - Imagem inserida: 12-imediato-semanal.jpg
+2025-09-26 13:56:51,861 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 13:56:51,933 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 13:56:52,010 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 13:56:52,081 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 13:56:52,149 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 13:56:52,218 - INFO - Imagem inserida: 18-agendamento-mensal.jpg
+2025-09-26 13:56:52,294 - INFO - Imagem inserida: 19-agendamento-mensal.jpg
+2025-09-26 13:56:52,367 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 13:56:52,440 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 13:56:52,513 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 13:56:52,583 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 13:56:52,658 - INFO - Imagem inserida: 24-agendamento-semanal.jpg
+2025-09-26 13:56:52,729 - INFO - Imagem inserida: 25-agendamento-semanal.jpg
+2025-09-26 13:56:52,829 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 13:56:52,929 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 13:56:53,035 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 13:56:53,125 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 13:56:53,220 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 13:56:53,312 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 13:56:53,424 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 13:56:53,525 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 13:56:53,632 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 13:56:53,728 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 13:56:53,838 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 13:56:53,937 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 13:56:54,036 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 13:56:54,253 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 13:56:54,358 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 13:56:54,454 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 13:56:54,556 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 13:56:54,658 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 13:56:54,768 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 13:56:54,865 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 13:56:54,977 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 13:56:55,089 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 13:56:55,216 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 13:56:55,318 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 13:56:55,423 - INFO - Imagem inserida: 01-devolução pix.jpg
+2025-09-26 13:56:55,544 - INFO - Imagem inserida: 02-pix por dados bancarios.jpg
+2025-09-26 13:56:55,640 - INFO - Imagem inserida: 03-pix por chaves.jpg
+2025-09-26 13:56:55,739 - INFO - Imagem inserida: 04-pix copia e cola.jpg
+2025-09-26 13:56:55,825 - INFO - Imagem inserida: 01-recorrencia mensal.jpg
+2025-09-26 13:56:55,904 - INFO - Imagem inserida: 02-recorrencia semanal.jpg
+2025-09-26 13:56:55,988 - INFO - Imagem inserida: 03-sem recorrencia.jpg
+2025-09-26 13:56:56,111 - INFO - Imagem inserida: 01-com recorrencia.jpg
+2025-09-26 13:56:56,225 - INFO - Imagem inserida: 02-sem recorrencia.jpg
+2025-09-26 13:56:56,337 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:56,448 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:56,558 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:56,668 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:56,776 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:56,928 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:57,054 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:56:57,176 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4022.jpg
+2025-09-26 13:56:57,298 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4023.jpg
+2025-09-26 13:56:57,414 - INFO - Imagem inserida: 01-TEST.jpg
+2025-09-26 13:56:57,531 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4028.jpg
+2025-09-26 13:56:57,651 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:56:57,757 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:56:57,864 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:56:57,970 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:56:58,076 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:56:58,077 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 13:56:58,425 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 14:00:45,697 - INFO - Iniciando processamento do diretório: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Test\12-07-2025_4.1.256
+2025-09-26 14:00:45,729 - INFO - Template carregado: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-GERADOR-DE-EVIDENCIAS\Modelo de doc para geracao\EVIDENCIAS - MODELO.docx
+2025-09-26 14:00:45,731 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 14:00:45,732 - INFO - Pasta processada: 1112954 - PRJ0025328 Bolepix - Validar chamada da Conta Online para emissão de boletos (nível 1) - 1 imagens
+2025-09-26 14:00:45,733 - INFO - Pasta processada: Gerar boleto avulsos em lote (nível 2) - 5 imagens
+2025-09-26 14:00:45,735 - INFO - Pasta processada: Gerar boletos parcelados em lote (nível 2) - 8 imagens
+2025-09-26 14:00:45,737 - INFO - Pasta processada: Gerar carnês de boletos em lote (nível 2) - 8 imagens
+2025-09-26 14:00:45,738 - INFO - Pasta processada: 1112967 - PRJ0025328 Bolepix - Validar consulta do lote durante a emissão de boletos na Conta Online (nível 1) - 5 imagens
+2025-09-26 14:00:45,740 - INFO - Pasta processada: 1112983 - PRJ0025328 Bolepix - Validar regra para tempo de espera na geração do boleto em andamento na Conta Online (nível 1) - 2 imagens
+2025-09-26 14:00:45,742 - INFO - Pasta processada: 1125595 - PRJ0025328 Bolepix - Gerar PDF do boleto com download automático (nível 1) - 3 imagens
+2025-09-26 14:00:45,743 - INFO - Pasta processada: 1125600 - PRJ0025328 Bolepix - Baixar o PDF do boleto (nível 1) - 13 imagens
+2025-09-26 14:00:45,745 - INFO - Pasta processada: 1135357 - PRJ0025328 Bolepix - Alterar nomenclatura na tela de Cobrança na Conta Online (nível 1) - 9 imagens
+2025-09-26 14:00:45,746 - INFO - Pasta processada: 1135392 - PRJ0025328 Bolepix - Solicitar PDF no menu de Boletos emitidos (nível 1) - 20 imagens
+2025-09-26 14:00:45,829 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:45,893 - INFO - Imagem inserida: 01-Gerar boleto avulsos em lote.jpg
+2025-09-26 14:00:45,953 - INFO - Imagem inserida: 02-Gerar boleto avulsos em lote.jpg
+2025-09-26 14:00:46,010 - INFO - Imagem inserida: 03-Gerar boleto avulsos em lote.jpg
+2025-09-26 14:00:46,077 - INFO - Imagem inserida: 04-Gerar boleto avulsos em lote.jpg
+2025-09-26 14:00:46,162 - INFO - Imagem inserida: 05-Gerar boleto avulsos em lote.jpg
+2025-09-26 14:00:46,226 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:46,287 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:46,381 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:00:46,444 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:00:46,507 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:46,572 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:46,635 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:46,700 - INFO - Imagem inserida: 08.jpg
+2025-09-26 14:00:46,765 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:46,828 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:46,918 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:00:46,981 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:00:47,047 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:47,113 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:47,177 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:47,239 - INFO - Imagem inserida: 08.jpg
+2025-09-26 14:00:47,309 - INFO - Imagem inserida: 01-TRN-674.8.jpg
+2025-09-26 14:00:47,376 - INFO - Imagem inserida: 02-TRN-674.8.jpg
+2025-09-26 14:00:47,444 - INFO - Imagem inserida: 03-TRN-674.8.jpg
+2025-09-26 14:00:47,510 - INFO - Imagem inserida: 04-TRN-674.8.jpg
+2025-09-26 14:00:47,608 - INFO - Imagem inserida: 05-TRN-674.8.jpg
+2025-09-26 14:00:47,669 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:47,739 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:47,807 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:47,873 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:47,938 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:48,005 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:48,074 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:48,143 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:00:48,212 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:00:48,279 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:48,342 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:48,410 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:48,478 - INFO - Imagem inserida: 08.jpg
+2025-09-26 14:00:48,546 - INFO - Imagem inserida: 09.jpg
+2025-09-26 14:00:48,602 - INFO - Imagem inserida: 10.jpg
+2025-09-26 14:00:48,667 - INFO - Imagem inserida: 11.jpg
+2025-09-26 14:00:48,732 - INFO - Imagem inserida: 12.jpg
+2025-09-26 14:00:48,802 - INFO - Imagem inserida: 13.jpg
+2025-09-26 14:00:48,874 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:48,950 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:49,015 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:00:49,084 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:00:49,154 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:49,214 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:49,290 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:49,358 - INFO - Imagem inserida: 08.jpg
+2025-09-26 14:00:49,424 - INFO - Imagem inserida: 09.jpg
+2025-09-26 14:00:49,501 - INFO - Imagem inserida: 01.1.jpg
+2025-09-26 14:00:49,570 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:00:49,641 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:00:49,710 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:00:49,780 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:00:49,850 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:00:49,924 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:00:50,001 - INFO - Imagem inserida: 07.jpg
+2025-09-26 14:00:50,070 - INFO - Imagem inserida: 08.jpg
+2025-09-26 14:00:50,137 - INFO - Imagem inserida: 09.jpg
+2025-09-26 14:00:50,207 - INFO - Imagem inserida: 10.jpg
+2025-09-26 14:00:50,276 - INFO - Imagem inserida: 11.jpg
+2025-09-26 14:00:50,344 - INFO - Imagem inserida: 12.jpg
+2025-09-26 14:00:50,411 - INFO - Imagem inserida: 13.jpg
+2025-09-26 14:00:50,484 - INFO - Imagem inserida: 14.jpg
+2025-09-26 14:00:50,554 - INFO - Imagem inserida: 15.jpg
+2025-09-26 14:00:50,626 - INFO - Imagem inserida: 16.jpg
+2025-09-26 14:00:50,700 - INFO - Imagem inserida: 17.jpg
+2025-09-26 14:00:50,770 - INFO - Imagem inserida: 18.jpg
+2025-09-26 14:00:50,841 - INFO - Imagem inserida: 19.jpg
+2025-09-26 14:00:50,842 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 14:00:51,079 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 14:04:25,367 - INFO - Iniciando processamento do diretório: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Test\09-05-2025_4.1.248
+2025-09-26 14:04:25,401 - INFO - Template carregado: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-GERADOR-DE-EVIDENCIAS\Modelo de doc para geracao\EVIDENCIAS - MODELO.docx
+2025-09-26 14:04:25,439 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 14:04:25,442 - INFO - Pasta processada: 1113047 - [PRJ0025384][Credenciais] - CO - Criação da tela Obter Chaves Descriptografia (nível 1) - 6 imagens
+2025-09-26 14:04:25,442 - INFO - Pasta processada: 1120765 - [INC0402091] - Erro emissão de boletos na Conta Online (nível 1) - 2 imagens
+2025-09-26 14:04:25,442 - INFO - Pasta processada: 965757 - [PRJ0025273]Conta Online - Criação Tela de Pagamentos Agendados Automáticos - Front (nível 1) - 0 imagens
+2025-09-26 14:04:25,442 - INFO - Pasta processada: Agendamento Cancelado (nível 2) - 2 imagens
+2025-09-26 14:04:25,445 - INFO - Pasta processada: Cancelamento não Permitido (nível 2) - 4 imagens
+2025-09-26 14:04:25,446 - INFO - Pasta processada: Cancelar Agendamento (nível 2) - 6 imagens
+2025-09-26 14:04:25,448 - INFO - Pasta processada: Filtros (nível 2) - 7 imagens
+2025-09-26 14:04:25,583 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,589 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,595 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:04:25,602 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:04:25,610 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:04:25,651 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:04:25,661 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,670 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,683 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,692 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,706 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,716 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,728 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:04:25,738 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:04:25,752 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,763 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,775 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:04:25,786 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:04:25,798 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:04:25,810 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:04:25,822 - INFO - Imagem inserida: 01.1.jpg
+2025-09-26 14:04:25,842 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:04:25,854 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:04:25,867 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:04:25,880 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:04:25,895 - INFO - Imagem inserida: 06.jpg
+2025-09-26 14:04:25,911 - INFO - Imagem inserida: 5.jpg
+2025-09-26 14:04:25,911 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 14:04:26,200 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 14:08:01,480 - INFO - Iniciando processamento do diretório: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Qa\10-09-2025_2.1.415
+2025-09-26 14:08:01,517 - INFO - Template carregado: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-GERADOR-DE-EVIDENCIAS\Modelo de doc para geracao\EVIDENCIAS - MODELO.docx
+2025-09-26 14:08:01,518 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 14:08:01,519 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-26 14:08:01,521 - INFO - Pasta processada: 1230179 - Adicionar Imagem Contestação (nível 2) - 1 imagens
+2025-09-26 14:08:01,522 - INFO - Pasta processada: 1230182 - Cores Status (nível 2) - 1 imagens
+2025-09-26 14:08:01,525 - INFO - Pasta processada: 1230234 - Contestar - Situação Relato (nível 2) - 1 imagens
+2025-09-26 14:08:01,526 - INFO - Pasta processada: 1229845 - [FrontEnd] Erro na Adesão ao Bolepix pela CO (nível 1) - 0 imagens
+2025-09-26 14:08:01,527 - INFO - Pasta processada: Chave aleatória cadastrada (nível 2) - 5 imagens
+2025-09-26 14:08:01,528 - INFO - Pasta processada: Chave aleatória não cadastrada (nível 2) - 5 imagens
+2025-09-26 14:08:01,568 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4022.jpg
+2025-09-26 14:08:01,577 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4023.jpg
+2025-09-26 14:08:01,583 - INFO - Imagem inserida: 01-QA_PSCECATPZ-4024.jpg
+2025-09-26 14:08:01,592 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:08:01,597 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:08:01,604 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:08:01,610 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:08:01,616 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:08:01,625 - INFO - Imagem inserida: 01.jpg
+2025-09-26 14:08:01,632 - INFO - Imagem inserida: 02.jpg
+2025-09-26 14:08:01,641 - INFO - Imagem inserida: 03.jpg
+2025-09-26 14:08:01,652 - INFO - Imagem inserida: 04.jpg
+2025-09-26 14:08:01,661 - INFO - Imagem inserida: 05.jpg
+2025-09-26 14:08:01,662 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 14:08:01,807 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx

@@ -11,6 +11,8 @@ class ProcessadorDocumentos:
     def __init__(self, template_path, largura_imagem=6.0):
         self.template_path = template_path
         self.largura_imagem = largura_imagem
+        self.qualidade_imagem = 1.0  # 1.0 = alta, 0.7 = média, 0.5 = baixa
+        self.callback_progresso = None
         self.setup_logging()
     
     def setup_logging(self):
@@ -24,8 +26,9 @@ class ProcessadorDocumentos:
         )
         self.logger = logging.getLogger(__name__)
     
-    def processar_diretorio(self, diretorio_raiz, arquivo_saida):
+    def processar_diretorio(self, diretorio_raiz, arquivo_saida, callback_progresso=None):
         try:
+            self.callback_progresso = callback_progresso
             self.logger.info(f"Iniciando processamento do diretório: {diretorio_raiz}")
             
             # Carregar template
@@ -56,8 +59,8 @@ class ProcessadorDocumentos:
         estrutura = []
         
         for root, dirs, files in os.walk(diretorio_raiz):
-            # Filtrar apenas arquivos .jpg
-            imagens = [f for f in files if f.lower().endswith('.jpg')]
+            # Filtrar apenas arquivos .jpg e .png
+            imagens = [f for f in files if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
             
             # Incluir todas as pastas na hierarquia, mesmo sem imagens diretas
             nivel = root.replace(diretorio_raiz, '').count(os.sep)
@@ -140,14 +143,17 @@ class ProcessadorDocumentos:
             titulo.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
             
             # Imagens desta pasta
-            for img_path in item['imagens']:
+            for i, img_path in enumerate(item['imagens']):
                 try:
+                    # Otimizar imagem se necessário
+                    img_path_otimizada = self._otimizar_imagem(img_path)
+                    
                     # Parágrafo da imagem
                     img_para = doc.add_paragraph()
                     run = img_para.add_run()
                     
-                    img_width, img_height = self._calcular_dimensoes_imagem(img_path)
-                    run.add_picture(img_path, width=Inches(img_width), height=Inches(img_height))
+                    img_width, img_height = self._calcular_dimensoes_imagem(img_path_otimizada)
+                    run.add_picture(img_path_otimizada, width=Inches(img_width), height=Inches(img_height))
                     img_para.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
                     
                     # Nome da imagem
@@ -158,6 +164,20 @@ class ProcessadorDocumentos:
                     doc.add_paragraph()
                     
                     self.logger.info(f"Imagem inserida: {os.path.basename(img_path)}")
+                    
+                    # Callback de progresso
+                    if self.callback_progresso:
+                        total_imagens = sum(len(pasta['imagens']) for pasta in estrutura_organizada)
+                        imagem_atual = sum(len(pasta['imagens']) for pasta in estrutura_organizada[:estrutura_organizada.index(item)]) + i + 1
+                        progresso = 0.2 + (0.7 * imagem_atual / total_imagens)
+                        self.callback_progresso(progresso, f"Processando imagem {imagem_atual} de {total_imagens}...")
+                    
+                    # Limpar arquivo temporário se foi criado
+                    if img_path_otimizada != img_path and os.path.exists(img_path_otimizada):
+                        try:
+                            os.remove(img_path_otimizada)
+                        except:
+                            pass
                     
                 except Exception as e:
                     self.logger.error(f"Erro ao inserir imagem {img_path}: {str(e)}")
@@ -173,6 +193,32 @@ class ProcessadorDocumentos:
         self.logger.info("Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento")
     
 
+    
+    def _otimizar_imagem(self, img_path):
+        """Otimiza imagem baseada na qualidade selecionada"""
+        if self.qualidade_imagem >= 1.0:
+            return img_path  # Sem otimização
+        
+        try:
+            with Image.open(img_path) as img:
+                # Converter para RGB se necessário
+                if img.mode in ('RGBA', 'LA', 'P'):
+                    img = img.convert('RGB')
+                
+                # Redimensionar se muito grande
+                max_size = int(2000 * self.qualidade_imagem)
+                if max(img.size) > max_size:
+                    img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+                
+                # Salvar com compressão
+                temp_path = img_path + '_temp.jpg'
+                quality = int(85 * self.qualidade_imagem)
+                img.save(temp_path, 'JPEG', quality=quality, optimize=True)
+                
+                return temp_path
+        except Exception as e:
+            self.logger.error(f"Erro ao otimizar imagem {img_path}: {str(e)}")
+            return img_path
     
     def _calcular_dimensoes_imagem(self, img_path):
         try:
