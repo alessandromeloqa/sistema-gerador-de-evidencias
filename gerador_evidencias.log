@@ -454,3 +454,371 @@
 2025-09-18 10:38:39,079 - INFO - Imagem inserida: 04.jpg
 2025-09-18 10:38:39,080 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
 2025-09-18 10:38:40,035 - INFO - Documento salvo: C:/Users/alessandro.melo/Downloads/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 18092025.docx
+2025-09-26 12:19:11,000 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Test/12-09-2025_4.1.267
+2025-09-26 12:19:11,046 - INFO - Template carregado: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/EVIDENCIAS - MODELO.docx
+2025-09-26 12:19:11,046 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 12:19:11,046 - INFO - Pasta processada: 1002316 - [INC0367451] - Pix - Agendamentos iguais estão sendo permitidos no Conta Online (nível 1) - 0 imagens
+2025-09-26 12:19:11,046 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 9 imagens
+2025-09-26 12:19:11,046 - INFO - Pasta processada: Pix por Chaves (nível 2) - 8 imagens
+2025-09-26 12:19:11,046 - INFO - Pasta processada: Pix por Dados Bancarios (nível 2) - 10 imagens
+2025-09-26 12:19:11,060 - INFO - Pasta processada: 1173067 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 12:19:11,061 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 23 imagens
+2025-09-26 12:19:11,061 - INFO - Pasta processada: Pix por Chaves (nível 2) - 16 imagens
+2025-09-26 12:19:11,061 - INFO - Pasta processada: Pix por Dados Manuais (nível 2) - 25 imagens
+2025-09-26 12:19:11,065 - INFO - Pasta processada: 1173068 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 12:19:11,065 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 8 imagens
+2025-09-26 12:19:11,065 - INFO - Pasta processada: Pix por chaves (nível 2) - 8 imagens
+2025-09-26 12:19:11,065 - INFO - Pasta processada: Pix por Dados Bancários (nível 2) - 8 imagens
+2025-09-26 12:19:11,065 - INFO - Pasta processada: 1184525 - [PRJ0025397][Conta Online][BFF] Adequar BFF para validar MFA e OFD ao validar transação (nível 1) - 4 imagens
+2025-09-26 12:19:11,072 - INFO - Pasta processada: 1204988 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato - Comprovante Tela (nível 1) - 3 imagens
+2025-09-26 12:19:11,072 - INFO - Pasta processada: 1204990 - [Squad PIX Recebimentos]  [Conta Online]  [PDF]  Agendamento recorrente com Pix Imediato - Comprovante PDF (nível 1) - 2 imagens
+2025-09-26 12:19:11,072 - INFO - Pasta processada: 1204992 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato - Comprovante (nível 1) - 3 imagens
+2025-09-26 12:19:11,072 - INFO - Pasta processada: 1226112 - Validação ícones do comprovante - Conta Online (nível 1) - 4 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1230179 - Adicionar Imagem Contestação (nível 2) - 1 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1230182 - Cores Status (nível 2) - 1 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1230234 - Contestar - Situação Relato (nível 2) - 1 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-26 12:19:11,076 - INFO - Pasta processada: 1229845 - [FrontEnd] Erro na Adesão ao Bolepix pela CO (nível 1) - 5 imagens
+2025-09-26 12:19:11,148 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:11,156 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:11,163 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:11,171 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:19:11,176 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:19:11,187 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:19:11,201 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:19:11,206 - INFO - Imagem inserida: 08.jpg
+2025-09-26 12:19:11,223 - INFO - Imagem inserida: 09.jpg
+2025-09-26 12:19:11,234 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:11,244 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:11,250 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:11,270 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:19:11,281 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:19:11,299 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:19:11,313 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:19:11,313 - INFO - Imagem inserida: 08.jpg
+2025-09-26 12:19:11,342 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:11,355 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:11,365 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:11,379 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:19:11,389 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:19:11,407 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:19:11,421 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:19:11,441 - INFO - Imagem inserida: 09.jpg
+2025-09-26 12:19:11,454 - INFO - Imagem inserida: 10.jpg
+2025-09-26 12:19:11,468 - INFO - Imagem inserida: 11.jpg
+2025-09-26 12:19:11,484 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 12:19:11,513 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 12:19:11,531 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 12:19:11,548 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 12:19:11,574 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 12:19:11,579 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 12:19:11,609 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 12:19:11,627 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 12:19:11,647 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 12:19:11,673 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 12:19:11,691 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 12:19:11,707 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 12:19:11,736 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 12:19:11,766 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 12:19:11,790 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 12:19:11,809 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 12:19:11,831 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 12:19:11,854 - INFO - Imagem inserida: 18-agendamento-semanal.jpg
+2025-09-26 12:19:11,876 - INFO - Imagem inserida: 19-agendamento-semanal.jpg
+2025-09-26 12:19:11,898 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 12:19:11,921 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 12:19:11,945 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 12:19:11,954 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 12:19:11,990 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:12,013 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:19:12,031 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:19:12,061 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:19:12,078 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:19:12,109 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:19:12,125 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:19:12,155 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:19:12,178 - INFO - Imagem inserida: 09-agendamento-mensal.jpg
+2025-09-26 12:19:12,187 - INFO - Imagem inserida: 10-agendamento-mensal.jpg
+2025-09-26 12:19:12,223 - INFO - Imagem inserida: 11-agendamento-mensal.jpg
+2025-09-26 12:19:12,232 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 12:19:12,266 - INFO - Imagem inserida: 13-agendamento-semanal.jpg
+2025-09-26 12:19:12,284 - INFO - Imagem inserida: 14-agendamento-semanal.jpg
+2025-09-26 12:19:12,312 - INFO - Imagem inserida: 15-agendamento-semanal.jpg
+2025-09-26 12:19:12,339 - INFO - Imagem inserida: 16-agendamento-semanal.jpg
+2025-09-26 12:19:12,364 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 12:19:12,386 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 12:19:12,409 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 12:19:12,436 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 12:19:12,461 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 12:19:12,486 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 12:19:12,498 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 12:19:12,538 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 12:19:12,562 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 12:19:12,584 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 12:19:12,616 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 12:19:12,650 - INFO - Imagem inserida: 12-imediato-semanal.jpg
+2025-09-26 12:19:12,676 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 12:19:12,695 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 12:19:12,718 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 12:19:12,749 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 12:19:12,778 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 12:19:12,795 - INFO - Imagem inserida: 18-agendamento-mensal.jpg
+2025-09-26 12:19:12,834 - INFO - Imagem inserida: 19-agendamento-mensal.jpg
+2025-09-26 12:19:12,859 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 12:19:12,895 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 12:19:12,929 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 12:19:12,963 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 12:19:12,991 - INFO - Imagem inserida: 24-agendamento-semanal.jpg
+2025-09-26 12:19:13,018 - INFO - Imagem inserida: 25-agendamento-semanal.jpg
+2025-09-26 12:19:13,062 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:19:13,092 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:19:13,124 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:19:13,172 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:19:13,206 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:19:13,244 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:19:13,286 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:19:13,313 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:19:13,358 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:19:13,397 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:19:13,438 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:19:13,478 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:19:13,516 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:19:13,556 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:19:13,594 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:19:13,627 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:19:13,670 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:19:13,702 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:19:13,749 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:19:13,783 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:19:13,833 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:19:13,875 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:19:13,917 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:19:13,957 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:19:14,005 - INFO - Imagem inserida: 01-devolução pix.jpg
+2025-09-26 12:19:14,052 - INFO - Imagem inserida: 02-pix por dados bancarios.jpg
+2025-09-26 12:19:14,122 - INFO - Imagem inserida: 03-pix por chaves.jpg
+2025-09-26 12:19:14,170 - INFO - Imagem inserida: 04-pix copia e cola.jpg
+2025-09-26 12:19:14,233 - INFO - Imagem inserida: 01-recorrencia mensal.jpg
+2025-09-26 12:19:14,294 - INFO - Imagem inserida: 02-recorrencia semanal.jpg
+2025-09-26 12:19:14,348 - INFO - Imagem inserida: 03-sem recorrencia.jpg
+2025-09-26 12:19:14,410 - INFO - Imagem inserida: 01-com recorrencia.jpg
+2025-09-26 12:19:14,486 - INFO - Imagem inserida: 02-sem recorrencia.jpg
+2025-09-26 12:19:14,549 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:14,603 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:14,663 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:14,725 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:14,781 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:14,838 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:14,899 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:19:14,965 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4022.jpg
+2025-09-26 12:19:15,030 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4023.jpg
+2025-09-26 12:19:15,097 - INFO - Imagem inserida: 01-TEST.jpg
+2025-09-26 12:19:15,162 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4028.jpg
+2025-09-26 12:19:15,227 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:19:15,288 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:19:15,343 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:19:15,419 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:19:15,483 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:19:15,485 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 12:19:16,924 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 12:21:25,468 - INFO - Iniciando processamento do diretório: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/IB/Testes/Test/12-09-2025_4.1.267
+2025-09-26 12:21:25,499 - INFO - Template carregado: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/EVIDENCIAS - MODELO.docx
+2025-09-26 12:21:25,500 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 12:21:25,501 - INFO - Pasta processada: 1002316 - [INC0367451] - Pix - Agendamentos iguais estão sendo permitidos no Conta Online (nível 1) - 0 imagens
+2025-09-26 12:21:25,504 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 9 imagens
+2025-09-26 12:21:25,506 - INFO - Pasta processada: Pix por Chaves (nível 2) - 8 imagens
+2025-09-26 12:21:25,508 - INFO - Pasta processada: Pix por Dados Bancarios (nível 2) - 10 imagens
+2025-09-26 12:21:25,510 - INFO - Pasta processada: 1173067 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 12:21:25,511 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 23 imagens
+2025-09-26 12:21:25,513 - INFO - Pasta processada: Pix por Chaves (nível 2) - 16 imagens
+2025-09-26 12:21:25,515 - INFO - Pasta processada: Pix por Dados Manuais (nível 2) - 25 imagens
+2025-09-26 12:21:25,516 - INFO - Pasta processada: 1173068 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato (nível 1) - 0 imagens
+2025-09-26 12:21:25,516 - INFO - Pasta processada: Pix Copia e Cola (nível 2) - 8 imagens
+2025-09-26 12:21:25,519 - INFO - Pasta processada: Pix por chaves (nível 2) - 8 imagens
+2025-09-26 12:21:25,520 - INFO - Pasta processada: Pix por Dados Bancários (nível 2) - 8 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1184525 - [PRJ0025397][Conta Online][BFF] Adequar BFF para validar MFA e OFD ao validar transação (nível 1) - 4 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1204988 - [Squad PIX Recebimentos]  [Conta Online]  [Frontend]  Agendamento recorrente com Pix Imediato - Comprovante Tela (nível 1) - 3 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1204990 - [Squad PIX Recebimentos]  [Conta Online]  [PDF]  Agendamento recorrente com Pix Imediato - Comprovante PDF (nível 1) - 2 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1204992 - [Squad PIX Recebimentos]  [Conta Online]  [Backend]  Agendamento recorrente com Pix Imediato - Comprovante (nível 1) - 3 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1226112 - Validação ícones do comprovante - Conta Online (nível 1) - 4 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1226491 - Homologação Ambiente QA (Pix Contestação) (nível 1) - 0 imagens
+2025-09-26 12:21:25,522 - INFO - Pasta processada: 1230179 - Adicionar Imagem Contestação (nível 2) - 1 imagens
+2025-09-26 12:21:25,532 - INFO - Pasta processada: 1230182 - Cores Status (nível 2) - 1 imagens
+2025-09-26 12:21:25,532 - INFO - Pasta processada: 1230234 - Contestar - Situação Relato (nível 2) - 1 imagens
+2025-09-26 12:21:25,532 - INFO - Pasta processada: 1231033 [Front-end] - Ajuste nos detalhes de uma contestação cancelada (nível 2) - 1 imagens
+2025-09-26 12:21:25,535 - INFO - Pasta processada: 1229845 - [FrontEnd] Erro na Adesão ao Bolepix pela CO (nível 1) - 5 imagens
+2025-09-26 12:21:25,578 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:25,581 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:25,592 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:25,599 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:21:25,604 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:21:25,615 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:21:25,621 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:21:25,626 - INFO - Imagem inserida: 08.jpg
+2025-09-26 12:21:25,634 - INFO - Imagem inserida: 09.jpg
+2025-09-26 12:21:25,641 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:25,641 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:25,657 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:25,660 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:21:25,677 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:21:25,687 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:21:25,699 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:21:25,711 - INFO - Imagem inserida: 08.jpg
+2025-09-26 12:21:25,724 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:25,730 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:25,748 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:25,762 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:21:25,777 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:21:25,793 - INFO - Imagem inserida: 06.jpg
+2025-09-26 12:21:25,803 - INFO - Imagem inserida: 07.jpg
+2025-09-26 12:21:25,819 - INFO - Imagem inserida: 09.jpg
+2025-09-26 12:21:25,832 - INFO - Imagem inserida: 10.jpg
+2025-09-26 12:21:25,848 - INFO - Imagem inserida: 11.jpg
+2025-09-26 12:21:25,861 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 12:21:25,889 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 12:21:25,908 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 12:21:25,924 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 12:21:25,940 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 12:21:25,958 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 12:21:25,975 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 12:21:25,986 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 12:21:26,011 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 12:21:26,020 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 12:21:26,039 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 12:21:26,064 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 12:21:26,081 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 12:21:26,103 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 12:21:26,124 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 12:21:26,143 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 12:21:26,159 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 12:21:26,186 - INFO - Imagem inserida: 18-agendamento-semanal.jpg
+2025-09-26 12:21:26,207 - INFO - Imagem inserida: 19-agendamento-semanal.jpg
+2025-09-26 12:21:26,227 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 12:21:26,249 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 12:21:26,270 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 12:21:26,296 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 12:21:26,328 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:26,357 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:21:26,382 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:21:26,407 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:21:26,431 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:21:26,455 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:21:26,477 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:21:26,502 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:21:26,519 - INFO - Imagem inserida: 09-agendamento-mensal.jpg
+2025-09-26 12:21:26,541 - INFO - Imagem inserida: 10-agendamento-mensal.jpg
+2025-09-26 12:21:26,572 - INFO - Imagem inserida: 11-agendamento-mensal.jpg
+2025-09-26 12:21:26,600 - INFO - Imagem inserida: 12-agendamento-mensal.jpg
+2025-09-26 12:21:26,613 - INFO - Imagem inserida: 13-agendamento-semanal.jpg
+2025-09-26 12:21:26,641 - INFO - Imagem inserida: 14-agendamento-semanal.jpg
+2025-09-26 12:21:26,676 - INFO - Imagem inserida: 15-agendamento-semanal.jpg
+2025-09-26 12:21:26,691 - INFO - Imagem inserida: 16-agendamento-semanal.jpg
+2025-09-26 12:21:26,722 - INFO - Imagem inserida: 01-imediato-mensal.jpg
+2025-09-26 12:21:26,754 - INFO - Imagem inserida: 02-imediato-mensal.jpg
+2025-09-26 12:21:26,786 - INFO - Imagem inserida: 03-imediato-mensal.jpg
+2025-09-26 12:21:26,813 - INFO - Imagem inserida: 04-imediato-mensal.jpg
+2025-09-26 12:21:26,836 - INFO - Imagem inserida: 05-imediato-mensal.jpg
+2025-09-26 12:21:26,864 - INFO - Imagem inserida: 06-imediato-mensal.jpg
+2025-09-26 12:21:27,007 - INFO - Imagem inserida: 07-imediato-semanal.jpg
+2025-09-26 12:21:27,025 - INFO - Imagem inserida: 08-imediato-semanal.jpg
+2025-09-26 12:21:27,054 - INFO - Imagem inserida: 09-imediato-semanal.jpg
+2025-09-26 12:21:27,082 - INFO - Imagem inserida: 10-imediato-semanal.jpg
+2025-09-26 12:21:27,122 - INFO - Imagem inserida: 11-imediato-semanal.jpg
+2025-09-26 12:21:27,154 - INFO - Imagem inserida: 12-imediato-semanal.jpg
+2025-09-26 12:21:27,191 - INFO - Imagem inserida: 13-agendamento-mensal.jpg
+2025-09-26 12:21:27,230 - INFO - Imagem inserida: 14-agendamento-mensal.jpg
+2025-09-26 12:21:27,273 - INFO - Imagem inserida: 15-agendamento-mensal.jpg
+2025-09-26 12:21:27,307 - INFO - Imagem inserida: 16-agendamento-mensal.jpg
+2025-09-26 12:21:27,360 - INFO - Imagem inserida: 17-agendamento-mensal.jpg
+2025-09-26 12:21:27,395 - INFO - Imagem inserida: 18-agendamento-mensal.jpg
+2025-09-26 12:21:27,443 - INFO - Imagem inserida: 19-agendamento-mensal.jpg
+2025-09-26 12:21:27,495 - INFO - Imagem inserida: 20-agendamento-semanal.jpg
+2025-09-26 12:21:27,538 - INFO - Imagem inserida: 21-agendamento-semanal.jpg
+2025-09-26 12:21:27,580 - INFO - Imagem inserida: 22-agendamento-semanal.jpg
+2025-09-26 12:21:27,627 - INFO - Imagem inserida: 23-agendamento-semanal.jpg
+2025-09-26 12:21:27,668 - INFO - Imagem inserida: 24-agendamento-semanal.jpg
+2025-09-26 12:21:27,716 - INFO - Imagem inserida: 25-agendamento-semanal.jpg
+2025-09-26 12:21:27,763 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:21:27,813 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:21:27,857 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:21:27,896 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:21:27,946 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:21:27,998 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:21:28,037 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:21:28,081 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:21:28,129 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:21:28,206 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:21:28,261 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:21:28,305 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:21:28,344 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:21:28,386 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:21:28,423 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:21:28,455 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:21:28,489 - INFO - Imagem inserida: 01-mensal.jpg
+2025-09-26 12:21:28,534 - INFO - Imagem inserida: 02-mensal.jpg
+2025-09-26 12:21:28,567 - INFO - Imagem inserida: 03-mensal.jpg
+2025-09-26 12:21:28,621 - INFO - Imagem inserida: 04-mensal.jpg
+2025-09-26 12:21:28,660 - INFO - Imagem inserida: 05-semanal.jpg
+2025-09-26 12:21:28,695 - INFO - Imagem inserida: 06-semanal.jpg
+2025-09-26 12:21:28,719 - INFO - Imagem inserida: 07-semanal.jpg
+2025-09-26 12:21:28,767 - INFO - Imagem inserida: 08-semanal.jpg
+2025-09-26 12:21:28,813 - INFO - Imagem inserida: 01-devolução pix.jpg
+2025-09-26 12:21:28,862 - INFO - Imagem inserida: 02-pix por dados bancarios.jpg
+2025-09-26 12:21:28,911 - INFO - Imagem inserida: 03-pix por chaves.jpg
+2025-09-26 12:21:28,954 - INFO - Imagem inserida: 04-pix copia e cola.jpg
+2025-09-26 12:21:29,007 - INFO - Imagem inserida: 01-recorrencia mensal.jpg
+2025-09-26 12:21:29,048 - INFO - Imagem inserida: 02-recorrencia semanal.jpg
+2025-09-26 12:21:29,112 - INFO - Imagem inserida: 03-sem recorrencia.jpg
+2025-09-26 12:21:29,157 - INFO - Imagem inserida: 01-com recorrencia.jpg
+2025-09-26 12:21:29,207 - INFO - Imagem inserida: 02-sem recorrencia.jpg
+2025-09-26 12:21:29,255 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:29,298 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:29,348 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:29,401 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:29,441 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:29,486 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:29,626 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:21:29,685 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4022.jpg
+2025-09-26 12:21:29,735 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4023.jpg
+2025-09-26 12:21:29,793 - INFO - Imagem inserida: 01-TEST.jpg
+2025-09-26 12:21:29,847 - INFO - Imagem inserida: 01-TEST_PSCECATPZ-4028.jpg
+2025-09-26 12:21:29,904 - INFO - Imagem inserida: 01.jpg
+2025-09-26 12:21:29,954 - INFO - Imagem inserida: 02.jpg
+2025-09-26 12:21:30,009 - INFO - Imagem inserida: 03.jpg
+2025-09-26 12:21:30,057 - INFO - Imagem inserida: 04.jpg
+2025-09-26 12:21:30,109 - INFO - Imagem inserida: 05.jpg
+2025-09-26 12:21:30,109 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 12:21:32,952 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
+2025-09-26 13:08:57,895 - INFO - Iniciando processamento do diretório: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Testes\Test\01-09-2025_4.1.266
+2025-09-26 13:08:57,935 - INFO - Template carregado: C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-GERADOR-DE-EVIDENCIAS\Modelo de doc para geracao\EVIDENCIAS - MODELO.docx
+2025-09-26 13:08:57,939 - INFO - Pasta processada: Evidências (nível 0) - 0 imagens
+2025-09-26 13:08:57,941 - INFO - Pasta processada: 1189762 [PRJ0025512] [Conta Online] Alterar tela de motivos para contestação de Pix no Conta Online (nível 1) - 0 imagens
+2025-09-26 13:08:57,942 - INFO - Pasta processada: Pix Automatico (nível 2) - 10 imagens
+2025-09-26 13:08:57,944 - INFO - Pasta processada: Pix Normal (nível 2) - 10 imagens
+2025-09-26 13:08:57,945 - INFO - Pasta processada: 1222992 - [PRJ0025512] [Conta Online] Incluir filtro SITUAÇÃO na tela de listagem de contestações de Pix no Conta Online (nível 1) - 3 imagens
+2025-09-26 13:08:58,010 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:08:58,016 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:08:58,023 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:08:58,030 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:08:58,036 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:08:58,044 - INFO - Imagem inserida: 06.jpg
+2025-09-26 13:08:58,051 - INFO - Imagem inserida: 07.jpg
+2025-09-26 13:08:58,060 - INFO - Imagem inserida: 08.jpg
+2025-09-26 13:08:58,066 - INFO - Imagem inserida: 09.jpg
+2025-09-26 13:08:58,075 - INFO - Imagem inserida: 10-tela de erro.jpg
+2025-09-26 13:08:58,086 - INFO - Imagem inserida: 01.jpg
+2025-09-26 13:08:58,093 - INFO - Imagem inserida: 02.jpg
+2025-09-26 13:08:58,102 - INFO - Imagem inserida: 03.jpg
+2025-09-26 13:08:58,112 - INFO - Imagem inserida: 04.jpg
+2025-09-26 13:08:58,121 - INFO - Imagem inserida: 05.jpg
+2025-09-26 13:08:58,130 - INFO - Imagem inserida: 06.jpg
+2025-09-26 13:08:58,140 - INFO - Imagem inserida: 07.jpg
+2025-09-26 13:08:58,151 - INFO - Imagem inserida: 08.jpg
+2025-09-26 13:08:58,162 - INFO - Imagem inserida: 09.jpg
+2025-09-26 13:08:58,172 - INFO - Imagem inserida: 10.jpg
+2025-09-26 13:08:58,186 - INFO - Imagem inserida: 01-situacao Em Analise.jpg
+2025-09-26 13:08:58,198 - INFO - Imagem inserida: 02-situacao Aceita.jpg
+2025-09-26 13:08:58,209 - INFO - Imagem inserida: 03-situacao Cancelada.jpg
+2025-09-26 13:08:58,212 - INFO - Página 'TODOS OS DIREITOS RESERVADOS' movida para o final do documento
+2025-09-26 13:08:58,401 - INFO - Documento salvo: C:/Users/alessandro.melo/OneDrive - Stefanini/Ailos/SISTEMA-GERADOR-DE-EVIDENCIAS/Modelo de doc para geracao/RELEASE NOTE - PROJETO AILOS - VERSÃO V00XC001RXXX - 26092025.docx
