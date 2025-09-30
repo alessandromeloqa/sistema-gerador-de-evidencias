@@ -19,10 +19,24 @@ Sistema automatizado em Python para geração de documentos de evidências de te
 
 ## Instalação
 
-1. Instale as dependências:
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/integra-evidencias.git
+cd integra-evidencias
+```
+
+2. Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
+
+3. **Configure as variáveis de ambiente (OBRIGATÓRIO)**:
+```bash
+cp .env.example .env
+# Edite o arquivo .env com suas configurações
+```
+
+> ⚠️ **IMPORTANTE**: O arquivo `.env` contém dados sensíveis e NÃO deve ser commitado no Git.
 
 ## Como Usar
 
@@ -110,6 +124,24 @@ Os logs são exibidos em tempo real na interface e salvos em `gerador_evidencias
 - Windows (para conversão PDF)
 - Microsoft Word (para conversão PDF)
 - Acesso aos diretórios configurados
+
+## 🔒 Segurança e LGPD
+
+Este projeto está em conformidade com a **Lei Geral de Proteção de Dados (LGPD)**:
+
+- ✅ **Dados Sensíveis Protegidos**: Credenciais em variáveis de ambiente
+- ✅ **Logs Rotativos**: Manutenção automática de 20 dias
+- ✅ **Configuração Segura**: Sistema centralizado de configurações
+- ✅ **Gitignore Configurado**: Arquivos sensíveis excluídos
+
+Leia a [Política de Privacidade](PRIVACY.md) para mais detalhes.
+
+### Configuração Segura
+
+1. **Nunca commite dados sensíveis**
+2. **Use apenas o arquivo `.env`** para credenciais
+3. **Configure acessos com menor privilégio**
+4. **Revise logs periodicamente**
 
 ## Melhorias da Nova Interface
 

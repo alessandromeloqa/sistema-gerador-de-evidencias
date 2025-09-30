@@ -16,15 +16,9 @@ class ProcessadorDocumentos:
         self.setup_logging()
     
     def setup_logging(self):
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler('gerador_evidencias.log', encoding='utf-8'),
-                logging.StreamHandler()
-            ]
-        )
-        self.logger = logging.getLogger(__name__)
+        # Usar logger centralizado do sistema principal
+        import logging
+        self.logger = logging.getLogger('IntegraEvidencias')
     
     def processar_diretorio(self, diretorio_raiz, arquivo_saida, callback_progresso=None):
         try:

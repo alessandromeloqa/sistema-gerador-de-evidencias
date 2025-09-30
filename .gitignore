@@ -1,0 +1,42 @@
+# === ARQUIVOS SENSÍVEIS - LGPD ===
+.env
+*.env
+config_local.py
+credentials.json
+secrets.json
+
+# === LOGS E DADOS TEMPORÁRIOS ===
+logs/
+*.log
+temp/
+cache/
+
+# === BUILD E DISTRIBUIÇÃO ===
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === ARQUIVOS DO SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === DADOS PESSOAIS ===
+# Qualquer arquivo que contenha dados pessoais
+*_pessoal.*
+*_privado.*
+dados_usuario/
+
+# === TEMPLATES E DOCUMENTOS ESPECÍFICOS ===
+# Remover se contiverem dados sensíveis
+# Modelo de doc para geracao/
