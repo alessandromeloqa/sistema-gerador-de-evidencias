@@ -1,4 +1,4 @@
-# === ARQUIVOS SENSÍVEIS - LGPD ===
+# === ARQUIVOS SENSÍVEIS ===
 .env
 *.env
 config_local.py

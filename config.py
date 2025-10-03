@@ -1,20 +1,19 @@
 """
 Configurações do IntegraEvidências
-Carrega variáveis de ambiente de forma segura
 """
 import os
-from pathlib import Path
 
 def load_env_file():
     """Carrega arquivo .env se existir"""
-    env_file = Path('.env')
-    if env_file.exists():
-        with open(env_file, 'r', encoding='utf-8') as f:
+    try:
+        with open('.env', 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
                 if line and not line.startswith('#') and '=' in line:
                     key, value = line.split('=', 1)
                     os.environ[key.strip()] = value.strip()
+    except FileNotFoundError:
+        pass
 
 # Carregar variáveis de ambiente
 load_env_file()

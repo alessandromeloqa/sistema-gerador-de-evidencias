@@ -708,10 +708,9 @@ class UploadNexusTab:
         
         # Importar módulos do sistema de upload
         import sys
-        sys.path.append(r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\SISTEMA-UPLOAD-EVIDENCIAS-NEXUS")
+        sys.path.append(r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\Sistemas\SISTEMA-UPLOAD-EVIDENCIAS-NEXUS")
         
         try:
-            import config_secure as config
             from nexus_client import NexusClient
             from file_manager import FileManager
             from logger import app_logger
@@ -755,7 +754,7 @@ class UploadNexusTab:
         ctk.CTkLabel(main_frame, text="Verifique se o diretório do sistema existe:", 
                     font=ctk.CTkFont(size=11)).pack(pady=5)
         
-        ctk.CTkLabel(main_frame, text="C:\\Users\\alessandro.melo\\OneDrive - Stefanini\\Ailos\\SISTEMA-UPLOAD-EVIDENCIAS-NEXUS", 
+        ctk.CTkLabel(main_frame, text="C:\\Users\\alessandro.melo\\OneDrive - Stefanini\\Ailos\\Sistemas\\SISTEMA-UPLOAD-EVIDENCIAS-NEXUS", 
                     font=ctk.CTkFont(size=10), text_color="gray").pack(pady=5)
     
     def criar_interface(self):
@@ -1121,10 +1120,6 @@ class ConfluenceTab:
     def __init__(self, parent_frame):
         self.parent_frame = parent_frame
         
-        # Importar módulos do sistema confluence
-        import sys
-        sys.path.append(r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IMPORTAR-EVIDENCIA-CONFLUENCE")
-        
         try:
             import requests
             import base64
@@ -1141,16 +1136,22 @@ class ConfluenceTab:
             self.re = re
             self.webbrowser = webbrowser
             
-            # Configurações do Confluence (carregadas de config.py)
-            from config import (CONFLUENCE_TOKEN, CONFLUENCE_EMAIL, CONFLUENCE_URL, 
-                              CONFLUENCE_DIRECTORIES, CONFLUENCE_PATHS, CONFLUENCE_TEMPLATE_ID)
+            # Configurações do Confluence (diretas)
+            self.token = "ATATT3xFfGF0XW9ZKoYXmlSXGtrB1BLwl3r-uIWgtiMubToPiyr7L4Ow02aXCYKSYD1h7wFghA6zMJq3eCwVGPdC-UZaDgR_C1XWGoSCQ7tsBTB-U0S2gMx7glGAN03tu9rEW3Uq_dyaVNEfPPTc8QJmozet0aivakcz28dfeOIyh13xtSBx-A8=185E9FFF"
+            self.email = "almelo@topazevolution.com"
+            self.base_url = "https://topsystems.atlassian.net"
             
-            self.token = CONFLUENCE_TOKEN
-            self.email = CONFLUENCE_EMAIL
-            self.base_url = CONFLUENCE_URL
-            self.directories = CONFLUENCE_DIRECTORIES
-            self.confluence_paths = CONFLUENCE_PATHS
-            self.template_id = CONFLUENCE_TEMPLATE_ID
+            self.directories = {
+                "TEST": r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Evidências\Test",
+                "QA": r"C:\Users\alessandro.melo\OneDrive - Stefanini\Ailos\IB\Evidências\Qa"
+            }
+            
+            self.confluence_paths = {
+                "TEST": "3256811546",
+                "QA": "3257565326"
+            }
+            
+            self.template_id = "2134016126"
             
             self.setup_logging()
             self.criar_interface()
@@ -1162,8 +1163,16 @@ class ConfluenceTab:
         return self.parent_frame.winfo_toplevel()
     
     def setup_logging(self):
-        # Usar logger centralizado
-        self.logger = app_logger
+        os.makedirs("logs", exist_ok=True)
+        log_filename = f"logs/confluence_upload_{self.datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler(log_filename, encoding='utf-8')
+            ]
+        )
+        self.logger = logging.getLogger(__name__)
     
     def criar_interface_erro(self, erro):
         """Interface de erro quando módulos não estão disponíveis"""
@@ -1385,7 +1394,7 @@ class ConfluenceTab:
         self.log_textbox.insert("end", log_entry)
         self.log_textbox.see("end")
         self.get_root().update_idletasks()
-        app_logger.info(f"[Confluence] {message}")
+        self.logger.info(message)
     
     def duplicate_template_page(self, version_name, target_folder_id):
         """Duplica página template"""

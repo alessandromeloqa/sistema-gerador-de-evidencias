@@ -26,9 +26,9 @@ def gerar_executavel():
         "--onefile",                    # Arquivo único
         "--windowed",                   # Sem console
         "--name=IntegraEvidencias",     # Nome do executável
-        "--hidden-import=cryptography.fernet",  # Fix cryptography
-        "--hidden-import=cryptography.hazmat.primitives.kdf.pbkdf2",
-        "--hidden-import=cryptography.hazmat.backends.openssl",
+        "--hidden-import=customtkinter",
+        "--hidden-import=PIL",
+        "--hidden-import=requests",
 # "--icon=icon.ico",              # Ícone (se existir)
         "--add-data=processador_documentos.py;.",  # Incluir módulo
         "IntegraEvidencias.py"         # Arquivo principal
